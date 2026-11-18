@@ -11,6 +11,7 @@
 - [سابقهٔ اجرایی و کاربرد آن برای AiA](guides/EXPERIENCE-AND-COVERAGE.fa.md): تجربهٔ مرتبط، مرز ادعا و پیوند منابع اصلی
 - [AiA در یک نگاه](guides/BUSINESS-AT-A-GLANCE.fa.md): جمع‌بندی خدمات و مسیر همکاری
 - [نمودار وب‌سایت](assets/AiA-website-map-fa.png) و [موجودی منابع تاریخی](guides/HISTORICAL-WEBSITE-SOURCES.fa.md)
+- [آرشیو تاریخی Business Core](archive/source-business-core-2026-09/README.md): ۴۷ سند اصلی و قالب عملیاتی. قیمت‌ها، شرایط و فرایندهای قدیمی را مبنای فعلی سایت نگیرید.
 - [سیاست تحریریه](guides/editorial-decisions-extract.md) و [پروژه‌های مرتبط](guides/linked-projects-and-boundaries.md)
 - [فهرست منبع و انتقال](SOURCE-MANIFEST.json): مسیر و هش اصل‌ها، موارد ارجاعی و محدودیت پوشش
 

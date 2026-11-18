@@ -18,9 +18,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 2348,
-      "sha256": "efd877917ec76f60b7c99b34e92bc4a469226b02c65a35e28dc20257880e18b0",
-      "git_blob_sha": "79f1668a63ec63e4c83506079fa9a2cb2e50f89a",
+      "bytes": 2598,
+      "sha256": "f059efdee1a032b9c550a858fe3bcd7c101deddd85cf3a237c68924007bf07ca",
+      "git_blob_sha": "6fcecc43c3ca320037a1864f1e42925877db95c6",
       "source": {
         "kind": "migration-guide",
         "status": "guide_not_source"
@@ -580,5 +580,18 @@
   "coverage_addendum": {
     "date": "2026-11-18",
     "note": "Adds source-linked experience guide; no historical archive members changed. Initial staging status belongs to historical revision."
-  }
+  },
+  "supplemental_archives": [
+    {
+      "scope": "Historical September 2026 Business Core, not current guidance",
+      "path": "archive/source-business-core-2026-09/",
+      "manifest": "archive/source-business-core-2026-09/MANIFEST.json",
+      "manifest_git_blob_sha": "0e38318d9925ea2ef90dfe8f55cf5682d8706ed9",
+      "manifest_sha256": "778774770a32b052ecbc84f98ac8cb91726eec9574c1d1b5c3f30084867f5378",
+      "reviewed_original_files": 47,
+      "navigation_and_manifest_files": 3,
+      "excluded": "Client/mock/view folder, 9 files. No customer records."
+    }
+  ],
+  "checksum_scope": "files covers the main migration bundle except this manifest. Each supplemental archive has an independent manifest under supplemental_archives."
 }
