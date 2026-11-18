@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "scope": "Six additional historical website documentation originals; existing service-capability-matrix not included or modified",
+  "archive_status": "historical_not_current_owner_approval",
+  "private_repository_only": true,
+  "public_or_rag_ingestion_approved": false,
+  "files": [
+    {
+      "path": "archive/source-website-2026-10-22/website-spec.md",
+      "bytes": 125138,
+      "sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+      "git_blob_sha": "32cc0dbc7c5b7f97a0e52f3169ad6cb4792f89f1",
+      "source_relative_path": "docs/website-spec.md",
+      "status": "byte_identical_historical_original_not_current_approved_content"
+    },
+    {
+      "path": "archive/source-website-2026-10-22/knowledge-core-draft.md",
+      "bytes": 45416,
+      "sha256": "b817ab86c1b27aa85cfae428e7c36143db0a7581de1f4f0468acefa3ce16425b",
+      "git_blob_sha": "51323dfcd3d0fc3881002dde6245b813a7c2d894",
+      "source_relative_path": "docs/knowledge-core-draft.md",
+      "status": "byte_identical_historical_original_not_current_approved_content"
+    },
+    {
+      "path": "archive/source-website-2026-10-22/knowledge-core-draft-catalog.json",
+      "bytes": 120648,
+      "sha256": "07df0db7dedb915c6b5cf360c78732ea69982a258955374a5792cfb111c41c48",
+      "git_blob_sha": "83ae2c80e3713441d5f5e0052c883479d464cc0a",
+      "source_relative_path": "docs/knowledge-core-draft-catalog.json",
+      "status": "byte_identical_historical_original_not_current_approved_content"
+    },
+    {
+      "path": "archive/source-website-2026-10-22/handoff-status-20261022.md",
+      "bytes": 12166,
+      "sha256": "aa516357634762327f4bf6fbd7a6d2a88361de20311d962e35639d607d2f0738",
+      "git_blob_sha": "3ebc917b6e4675cd1846d3912717ab0898c80e01",
+      "source_relative_path": "docs/handoff-status-20261022.md",
+      "status": "byte_identical_historical_original_not_current_approved_content"
+    },
+    {
+      "path": "archive/source-website-2026-10-22/design-references/README.md",
+      "bytes": 4034,
+      "sha256": "bcedfee91d3cfb1427ed171ad1cf4de90199357192bf804d1ae702dad7a06d25",
+      "git_blob_sha": "ab64f0dfba46e5a7be069157590b750f9f76caa6",
+      "source_relative_path": "docs/design-references/README.md",
+      "status": "byte_identical_historical_original_not_current_approved_content"
+    },
+    {
+      "path": "archive/source-website-2026-10-22/design-references/REFERENCE-TEMPLATE-fa.md",
+      "bytes": 4073,
+      "sha256": "75c7ec23f663ea3a5a1d669a3256f250b2e817134e3b674b0fc6c31d8c7d6bc0",
+      "git_blob_sha": "a0e515029077765dcc17e0f16a926021d36024f1",
+      "source_relative_path": "docs/design-references/REFERENCE-TEMPLATE-fa.md",
+      "status": "byte_identical_historical_original_not_current_approved_content"
+    }
+  ],
+  "limitations": [
+    "October requirements and copy may be superseded by November owner decisions",
+    "47-record knowledge catalog has zero public-site/public-chat approvals and every record is non-ingestible",
+    "No real customer/contact examples or credentials identified in whole-file scans and targeted content review; not an exhaustive security audit",
+    "Design reference index empty and template unfilled; no selected artwork or code included",
+    "FAQ08 retains historical human-review question versus support-answer mismatch; do not use it as approved FAQ"
+  ],
+  "checksum_convention": "Manifest covers six originals, not itself; original project unchanged"
+}

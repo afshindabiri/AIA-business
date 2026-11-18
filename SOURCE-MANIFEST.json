@@ -375,9 +375,9 @@
     },
     {
       "path": "guides/HISTORICAL-WEBSITE-SOURCES.fa.md",
-      "bytes": 2395,
-      "sha256": "4301bb9776f895f5cc64324394d0a899d49d3b0a93a0324b6e9e96f339128ab3",
-      "git_blob_sha": "3f46e5f84ca88763ea4523dddf226d0f9e1f296e",
+      "bytes": 4123,
+      "sha256": "96355bf9b48e3e8b5860ec445cfe7e741015a2fc9846454d935cb59738d97096",
+      "git_blob_sha": "d34c0bf9d2f05c2822abf4234de31f1abd7ca6a0",
       "source": {
         "kind": "migration-guide",
         "status": "guide_not_source"
@@ -591,6 +591,17 @@
       "reviewed_original_files": 47,
       "navigation_and_manifest_files": 3,
       "excluded": "Client/mock/view folder, 9 files. No customer records."
+    },
+    {
+      "scope": "Historical October website documentation; not current approved copy or public RAG input",
+      "path": "archive/source-website-2026-10-22/",
+      "manifest": "archive/source-website-2026-10-22/MANIFEST.json",
+      "manifest_bytes": 3475,
+      "manifest_sha256": "d0803d6204a40a1e22f81f91adf3b360b70130f2c7cc7989c6dabfd67b8e36dd",
+      "manifest_git_blob_sha": "975a6d17ffab06d611ead81fc58c61a902ae434a",
+      "reviewed_original_files": 6,
+      "navigation_and_manifest_files": 1,
+      "note": "Six byte-identical originals plus one nested manifest. service-capability-matrix.md already exists in the main bundle and is unchanged."
     }
   ],
   "checksum_scope": "files covers the main migration bundle except this manifest. Each supplemental archive has an independent manifest under supplemental_archives."

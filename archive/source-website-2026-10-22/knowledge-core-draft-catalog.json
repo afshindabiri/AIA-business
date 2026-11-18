@@ -1,0 +1,3393 @@
+{
+  "schema_version": "draft-1",
+  "status": "INTERNAL_ONLY_REJECTED_COPY_HISTORY_BUSINESS_FACTS_RETAINED",
+  "created_at": "2026-10-22T09:40:09.147338+00:00",
+  "authoring_locale": "fa",
+  "english_status": "after_persian_acceptance_not_generated",
+  "public_site_approved_count": 0,
+  "public_chat_approved_count": 0,
+  "sources": {
+    "docs/website-spec.md": {
+      "sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+      "bytes": 125138
+    },
+    "docs/owner-facts.md": {
+      "sha256": "70f1a60f137a2fadb74bd3ab196d95a599bd4f37452473baa14a6ec9553899f3",
+      "bytes": 8362
+    },
+    "docs/geo-aeo-architecture.md": {
+      "sha256": "f57d62d186f3cc9f9cfa8e4b38dee13d0d0a7cbdf0029fa821a99b823b8059d1",
+      "bytes": 11350
+    },
+    "docs/prototype-fact-question-matrix.md": {
+      "sha256": "24759cf6af4611663f6a69ddfa152f636e0a4e494a8fcf3945a050a815d6fc4d",
+      "bytes": 6318
+    },
+    "docs/service-capability-matrix.md": {
+      "sha256": "f6b6ecbc1f09ad232b91a192cd29d927890c0c83ae422d37e0987adf0119aa57",
+      "bytes": 8192
+    },
+    "docs/service-stories-fa-draft.md": {
+      "sha256": "38d53065946e3928f93981fc47a543a0b9bd9ed75bcf0f358b5ddbd56b666ac7",
+      "bytes": 15033
+    },
+    "docs/approved-persian-copy-20261022.md": {
+      "sha256": "fd61bd35ab504b616f68e8b0a29179e01dd4c569b03267712ae8a47d87dfe6c2",
+      "bytes": 4228
+    },
+    "docs/handoff-status-20261022.md": {
+      "bytes": 12166,
+      "sha256": "aa516357634762327f4bf6fbd7a6d2a88361de20311d962e35639d607d2f0738"
+    }
+  },
+  "domain_contracts": {
+    "public_knowledge": "sanitized_channel_approved_versions_only_future_export",
+    "internal_evidence": "excluded_from_public_and_retrieval",
+    "faq_drafts": "approval_and_version_dependencies_required",
+    "visitor_identity": {
+      "example_records": [],
+      "required_intake_fields": [
+        {
+          "id": "first_name",
+          "label_fa": "نام",
+          "required": true
+        },
+        {
+          "id": "last_name",
+          "label_fa": "نام خانوادگی",
+          "required": true
+        },
+        {
+          "id": "whatsapp_number",
+          "label_fa": "شماره واتس‌اپ",
+          "required": true
+        },
+        {
+          "id": "business_name",
+          "label_fa": "نام کسب‌وکار",
+          "required": true
+        },
+        {
+          "id": "business_activity",
+          "label_fa": "حوزه فعالیت",
+          "required": true
+        },
+        {
+          "id": "subject_or_problem",
+          "label_fa": "موضوع یا مشکل",
+          "required": true
+        },
+        {
+          "id": "email",
+          "label_fa": "ایمیل",
+          "required": true
+        },
+        {
+          "id": "preferred_contact_time",
+          "label_fa": "زمان ترجیحی تماس",
+          "required": true
+        },
+        {
+          "id": "employee_count",
+          "label_fa": "تعداد کارکنان",
+          "required": true
+        }
+      ],
+      "retention_duration": "owner_intent_no_default_expiry_not_configured",
+      "access_roles": null,
+      "profile_expiry_intent": "retain_relevant_profile_and_structured_facts_no_automatic_default_expiry",
+      "auto_merge_by_phone_or_email": false
+    },
+    "chat_records": {
+      "example_records": [],
+      "max_retention_owner_intent": "three_months",
+      "clock": null,
+      "logs_backups_provider_coverage": "unresolved",
+      "shared_knowledge_ingestion": false,
+      "retention_clock_proposal": {
+        "status": "PROPOSED_OWNER_DECISION_PENDING",
+        "clock": "per_message_created_at_plus_three_calendar_months",
+        "reset_by_new_messages": false,
+        "configured": false
+      },
+      "channels": [
+        "website",
+        "whatsapp"
+      ]
+    },
+    "meeting_artifacts": {
+      "example_records": [],
+      "full_recording_and_conversation_required": true,
+      "retention_duration": null,
+      "native_auto_recording_verified": false,
+      "native_persian_transcript_assumed": false,
+      "public_retrieval_allowed": false,
+      "consent_plan_admin_provider_permissions": "required_before_activation",
+      "automatic_capture": "conditional_plan_admin_host_join_and_drive_capacity; not event_exists_equals_recorded",
+      "native_transcript_languages": [
+        "en",
+        "fr",
+        "de",
+        "it",
+        "ja",
+        "ko",
+        "pt",
+        "es"
+      ],
+      "persian_stt": "alternative_validation_and_processor_permission_pending; no_vendor_selected",
+      "capture_scope": "recording_active_speaker_shared_content; transcript_spoken_words_not_meeting_chat",
+      "readiness": "recording/transcript_fileGenerated_distinct_from_conference_ended",
+      "transcript_api_entries_expiry_days": 30,
+      "drive_file_expiry_inferred": false,
+      "storage_recommendation": "private object storage or approved Drive source; database references/checksums/ownership/timings/status; transcript segments separate",
+      "stable_links": [
+        "event_id",
+        "space_id",
+        "conference_id",
+        "artifact_id",
+        "customer_id",
+        "request_id"
+      ],
+      "import_idempotency": "stable_artifact_id_and_checksum; reconcile_after_outage; expose_partial_language_errors_multiple_files",
+      "oauth_gate": "review scopes, restricted drive.meet.readonly and applicable verification/security_assessment before storage/transmission"
+    }
+  },
+  "records": [
+    {
+      "id": "KC01",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "identity",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "draft_copy_not_owner_verified",
+      "candidate_text_fa": "برند شخصی AiAfshin متعلق به افشین است؛ همکاری مستقیم و بدون ادعای شرکت یا تیم خیالی توصیف شده است.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "2.1 Identity and audience; 6.9 About",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-kc01",
+      "category": "identity",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null
+    },
+    {
+      "id": "KC02",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "buyer_paths",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "draft_copy_not_owner_verified",
+      "candidate_text_fa": "دو نقطهٔ شروع پیشنهادی: توضیح یک مسئلهٔ کسب‌وکار یا توضیح راهکار مشخص.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "6.3 Buyer paths",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-kc02",
+      "category": "client_fit_problems",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null
+    },
+    {
+      "id": "KC03",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "assessment",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "assessment_as_need_discovery_not_standalone_offer_confirmed",
+      "candidate_text_fa": "ارزیابی فرایند: نقشهٔ فرایند، فرصت‌های اولویت‌دار و دامنهٔ پیشنهادی اجرای محدود؛ پیاده‌سازی و هزینهٔ ابزارها جداگانه تعیین می‌شوند.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [
+        "assessment"
+      ],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "6.6 Service copy, individually gated — Assessment",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        },
+        {
+          "path": "docs/owner-facts.md",
+          "section": "F03 Service scope and exclusions",
+          "file_sha256": "70f1a60f137a2fadb74bd3ab196d95a599bd4f37452473baa14a6ec9553899f3",
+          "source_state": "internal_gate_service_availability_unknown"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-kc03",
+      "category": "services_deliverables",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "service_dependency_mode": "all_of",
+      "approved_text_fa": null
+    },
+    {
+      "id": "KC04",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "automation",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "owner_asserted_high_level_scope_not_public_copy_or_delivered_proof",
+      "candidate_text_fa": "گردش‌کار توافق‌شده، سناریوهای آزمون، رسیدگی به استثناها و مستندات تحویل؛ اتصال‌ها، مجوز داده، اشتراک و پشتیبانی باید تعیین شوند.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [
+        "automation"
+      ],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "6.6 Service copy, individually gated — Automation",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        },
+        {
+          "path": "docs/owner-facts.md",
+          "section": "F03 Service scope and exclusions",
+          "file_sha256": "70f1a60f137a2fadb74bd3ab196d95a599bd4f37452473baa14a6ec9553899f3",
+          "source_state": "internal_gate_service_availability_unknown"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-kc04",
+      "category": "services_deliverables",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "service_dependency_mode": "all_of",
+      "approved_text_fa": null,
+      "support_policy_ref": "CP03",
+      "support_statement_revision": "Use exact approved CP03 support text; no blanket support-unknown interpretation."
+    },
+    {
+      "id": "KC05",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "websites",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "owner_asserted_custom_coded_websites_and_webapps_not_public_copy_or_delivered_proof",
+      "candidate_text_fa": "ساختار محتوا، صفحات واکنش‌گرا، زبان‌های توافق‌شده، مسیر تماس و زیرساخت جست‌وجو؛ میزبانی، محتوا و اپلیکیشن اختصاصی خودبه‌خود جزو کار نیستند.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [
+        "websites"
+      ],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "6.6 Service copy, individually gated — Websites",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        },
+        {
+          "path": "docs/owner-facts.md",
+          "section": "F03 Service scope and exclusions",
+          "file_sha256": "70f1a60f137a2fadb74bd3ab196d95a599bd4f37452473baa14a6ec9553899f3",
+          "source_state": "internal_gate_service_availability_unknown"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-kc05",
+      "category": "services_deliverables",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "service_dependency_mode": "all_of",
+      "approved_text_fa": null
+    },
+    {
+      "id": "KC06",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "process",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "draft_copy_not_owner_verified",
+      "candidate_text_fa": "شناخت نیاز، تعیین دامنه، طراحی و ساخت متناسب با خدمت مصوب، آزمون و تحویل؛ پشتیبانی مستمر جداگانه تعیین می‌شود.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "6.8 Collaboration process",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-kc06",
+      "category": "process_responsibilities",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null,
+      "support_policy_ref": "CP03",
+      "support_statement_revision": "Use exact approved CP03 support text; no blanket support-unknown interpretation."
+    },
+    {
+      "id": "KC07",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "concept_example",
+      "locale": "fa",
+      "claim_kind": "hypothetical-example",
+      "truth_status": "explicit_fictional_concept_not_demo",
+      "candidate_text_fa": "در مثال توضیحیِ ساختگی، AI خلاصهٔ درخواست را پیش‌نویس می‌کند، اتوماسیون ثبت/یادآوری را انجام می‌دهد و انسان پاسخ و تصمیم تجاری را تأیید می‌کند؛ اتصال فعال یا نتیجهٔ مشتری نیست.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "6.5 Illustrative workflow, never a portfolio claim",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-kc07",
+      "category": "answer_boundaries",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null
+    },
+    {
+      "id": "FAQ01",
+      "version": 1,
+      "kind": "faq_draft",
+      "topic": "faq",
+      "locale": "fa",
+      "claim_kind": "candidate_project_copy",
+      "truth_status": "draft_copy_not_owner_verified",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [
+        "assessment",
+        "automation"
+      ],
+      "related_record_ids": [
+        "KC02"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "6.10 FAQ, complete answers — item 1",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "question_fa": "باید از قبل ابزار هوش مصنوعی را انتخاب کرده باشم؟",
+      "service_dependency_mode": "any_of",
+      "candidate_answer_ref": "KC08",
+      "supporting_knowledge_ids": [
+        "KC08"
+      ],
+      "approved_answer": null,
+      "question_variants_fa": [
+        "باید از قبل ابزار هوش مصنوعی را انتخاب کرده باشم؟"
+      ],
+      "uncertainty_behavior": {
+        "missing_conflicting_expired_or_revoked_evidence": "do_not_answer_as_fact; disclose_limit; offer_human_path_if_needed",
+        "human_requested": "intake_required_before_whatsapp",
+        "unknown_service_availability": "do_not_offer_or_promise_delivery",
+        "booking_or_notification_claim": "only_actual_verified_operation_state; no native_guest_alarm_or_auto_recording_assumption"
+      },
+      "concept_id": "concept-kc08",
+      "category": "prerequisites_limits",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      }
+    },
+    {
+      "id": "FAQ02",
+      "version": 1,
+      "kind": "faq_draft",
+      "topic": "faq",
+      "locale": "fa",
+      "claim_kind": "candidate_project_copy",
+      "truth_status": "draft_copy_not_owner_verified",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [
+        "KC03"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "6.10 FAQ, complete answers — item 2",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "question_fa": "هوش مصنوعی همیشه پاسخ مناسب است؟",
+      "candidate_answer_ref": "KC09",
+      "supporting_knowledge_ids": [
+        "KC09"
+      ],
+      "approved_answer": null,
+      "question_variants_fa": [
+        "هوش مصنوعی همیشه پاسخ مناسب است؟"
+      ],
+      "uncertainty_behavior": {
+        "missing_conflicting_expired_or_revoked_evidence": "do_not_answer_as_fact; disclose_limit; offer_human_path_if_needed",
+        "human_requested": "intake_required_before_whatsapp",
+        "unknown_service_availability": "do_not_offer_or_promise_delivery",
+        "booking_or_notification_claim": "only_actual_verified_operation_state; no native_guest_alarm_or_auto_recording_assumption"
+      },
+      "concept_id": "concept-kc09",
+      "category": "answer_boundaries",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      }
+    },
+    {
+      "id": "FAQ03",
+      "version": 1,
+      "kind": "faq_draft",
+      "topic": "faq",
+      "locale": "fa",
+      "claim_kind": "candidate_project_copy",
+      "truth_status": "draft_copy_not_owner_verified",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [
+        "KC02"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "6.10 FAQ, complete answers — item 3",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "question_fa": "برای شروع چه اطلاعاتی بفرستم؟",
+      "candidate_answer_ref": "KC10",
+      "supporting_knowledge_ids": [
+        "KC10"
+      ],
+      "approved_answer": null,
+      "question_variants_fa": [
+        "برای شروع چه اطلاعاتی بفرستم؟"
+      ],
+      "uncertainty_behavior": {
+        "missing_conflicting_expired_or_revoked_evidence": "do_not_answer_as_fact; disclose_limit; offer_human_path_if_needed",
+        "human_requested": "intake_required_before_whatsapp",
+        "unknown_service_availability": "do_not_offer_or_promise_delivery",
+        "booking_or_notification_claim": "only_actual_verified_operation_state; no native_guest_alarm_or_auto_recording_assumption"
+      },
+      "concept_id": "concept-kc10",
+      "category": "prerequisites_limits",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      }
+    },
+    {
+      "id": "FAQ04",
+      "version": 1,
+      "kind": "faq_draft",
+      "topic": "faq",
+      "locale": "fa",
+      "claim_kind": "candidate_project_copy",
+      "truth_status": "draft_copy_not_owner_verified",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [
+        "websites"
+      ],
+      "related_record_ids": [
+        "KC05"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "6.10 FAQ, complete answers — item 4 — Website variant",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "question_fa": "می‌توانم وب‌سایت مشخصی سفارش بدهم؟",
+      "candidate_answer_ref": "KC11",
+      "supporting_knowledge_ids": [
+        "KC11"
+      ],
+      "approved_answer": null,
+      "question_variants_fa": [
+        "می‌توانم وب‌سایت مشخصی سفارش بدهم؟"
+      ],
+      "uncertainty_behavior": {
+        "missing_conflicting_expired_or_revoked_evidence": "do_not_answer_as_fact; disclose_limit; offer_human_path_if_needed",
+        "human_requested": "intake_required_before_whatsapp",
+        "unknown_service_availability": "do_not_offer_or_promise_delivery",
+        "booking_or_notification_claim": "only_actual_verified_operation_state; no native_guest_alarm_or_auto_recording_assumption"
+      },
+      "concept_id": "concept-kc11",
+      "category": "services_deliverables",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "service_dependency_mode": "all_of"
+    },
+    {
+      "id": "FAQ05",
+      "version": 1,
+      "kind": "faq_draft",
+      "topic": "faq",
+      "locale": "fa",
+      "claim_kind": "candidate_project_copy",
+      "truth_status": "draft_copy_not_owner_verified",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [
+        "automation"
+      ],
+      "related_record_ids": [
+        "KC04"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "6.10 FAQ, complete answers — item 4 — Integration variant",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "question_fa": "می‌توانم اتصال مشخصی بین ابزارها سفارش بدهم؟",
+      "candidate_answer_ref": "KC12",
+      "supporting_knowledge_ids": [
+        "KC12"
+      ],
+      "approved_answer": null,
+      "question_variants_fa": [
+        "می‌توانم اتصال مشخصی بین ابزارها سفارش بدهم؟"
+      ],
+      "uncertainty_behavior": {
+        "missing_conflicting_expired_or_revoked_evidence": "do_not_answer_as_fact; disclose_limit; offer_human_path_if_needed",
+        "human_requested": "intake_required_before_whatsapp",
+        "unknown_service_availability": "do_not_offer_or_promise_delivery",
+        "booking_or_notification_claim": "only_actual_verified_operation_state; no native_guest_alarm_or_auto_recording_assumption"
+      },
+      "concept_id": "concept-kc12",
+      "category": "services_deliverables",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "service_dependency_mode": "all_of"
+    },
+    {
+      "id": "FAQ06",
+      "version": 1,
+      "kind": "faq_draft",
+      "topic": "faq",
+      "locale": "fa",
+      "claim_kind": "candidate_project_copy",
+      "truth_status": "draft_copy_not_owner_verified",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [
+        "KC06"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "6.10 FAQ, complete answers — item 5",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "question_fa": "هزینه و زمان چطور مشخص می‌شوند؟",
+      "candidate_answer_ref": "KC13",
+      "supporting_knowledge_ids": [
+        "KC13"
+      ],
+      "approved_answer": null,
+      "question_variants_fa": [
+        "هزینه و زمان چطور مشخص می‌شوند؟"
+      ],
+      "uncertainty_behavior": {
+        "missing_conflicting_expired_or_revoked_evidence": "do_not_answer_as_fact; disclose_limit; offer_human_path_if_needed",
+        "human_requested": "intake_required_before_whatsapp",
+        "unknown_service_availability": "do_not_offer_or_promise_delivery",
+        "booking_or_notification_claim": "only_actual_verified_operation_state; no native_guest_alarm_or_auto_recording_assumption"
+      },
+      "concept_id": "concept-kc13",
+      "category": "commercial_policy",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      }
+    },
+    {
+      "id": "FAQ07",
+      "version": 1,
+      "kind": "faq_draft",
+      "topic": "faq",
+      "locale": "fa",
+      "claim_kind": "candidate_project_copy",
+      "truth_status": "draft_copy_not_owner_verified",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [
+        "KC07"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "6.10 FAQ, complete answers — item 6",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "question_fa": "هوش مصنوعی بدون بررسی انسان عمل می‌کند؟",
+      "candidate_answer_ref": "KC14",
+      "supporting_knowledge_ids": [
+        "KC14"
+      ],
+      "approved_answer": null,
+      "question_variants_fa": [
+        "هوش مصنوعی بدون بررسی انسان عمل می‌کند؟"
+      ],
+      "uncertainty_behavior": {
+        "missing_conflicting_expired_or_revoked_evidence": "do_not_answer_as_fact; disclose_limit; offer_human_path_if_needed",
+        "human_requested": "intake_required_before_whatsapp",
+        "unknown_service_availability": "do_not_offer_or_promise_delivery",
+        "booking_or_notification_claim": "only_actual_verified_operation_state; no native_guest_alarm_or_auto_recording_assumption"
+      },
+      "concept_id": "concept-kc14",
+      "category": "process_responsibilities",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      }
+    },
+    {
+      "id": "POL01",
+      "version": 1,
+      "kind": "policy_intent",
+      "topic": "restricted_knowledge",
+      "locale": "fa",
+      "claim_kind": "owner-instruction",
+      "truth_status": "owner_reported_intent_not_implemented",
+      "candidate_text_fa": "پاسخ چت از هستهٔ محدود و مجاز اطلاعات همین پروژه؛ نه همهٔ اطلاعات بیزینس.",
+      "sensitivity": "internal_only",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/owner-facts.md",
+          "section": "F11 FAQ / restricted RAG / existing n8n",
+          "file_sha256": "70f1a60f137a2fadb74bd3ab196d95a599bd4f37452473baa14a6ec9553899f3",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "public_use": "not_a_public_privacy_statement",
+      "concept_id": "concept-pol01",
+      "category": "answer_boundaries",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null
+    },
+    {
+      "id": "POL02",
+      "version": 1,
+      "kind": "policy_intent",
+      "topic": "human_handoff",
+      "locale": "fa",
+      "claim_kind": "owner-instruction",
+      "truth_status": "owner_reported_intent_not_implemented",
+      "candidate_text_fa": "هر ۹ فیلد اجباری پیش از ارجاع واتس‌اپ و رزرو واقعی Google Calendar/Meet باید در سرور معتبر باشند؛ Bottom Sheet تأیید شده است.",
+      "sensitivity": "internal_only",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/owner-facts.md",
+          "section": "F12 Mandatory intake / booking",
+          "file_sha256": "70f1a60f137a2fadb74bd3ab196d95a599bd4f37452473baa14a6ec9553899f3",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "public_use": "not_a_public_privacy_statement",
+      "concept_id": "concept-pol02",
+      "category": "contact_intake_handoff",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null
+    },
+    {
+      "id": "POL03",
+      "version": 1,
+      "kind": "policy_intent",
+      "topic": "language_visuals",
+      "locale": "fa",
+      "claim_kind": "owner-instruction",
+      "truth_status": "owner_reported_intent_not_implemented",
+      "candidate_text_fa": "فارسی نخست، انگلیسی بعداً؛ توضیح با متن و تصویر/موشن با معادل ایستا و دسترس‌پذیر.",
+      "sensitivity": "internal_only",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/owner-facts.md",
+          "section": "F13 Language / visuals / UI",
+          "file_sha256": "70f1a60f137a2fadb74bd3ab196d95a599bd4f37452473baa14a6ec9553899f3",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "public_use": "not_a_public_privacy_statement",
+      "concept_id": "concept-pol03",
+      "category": "answer_boundaries",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null
+    },
+    {
+      "id": "POL04",
+      "version": 1,
+      "kind": "policy_intent",
+      "topic": "chat_retention",
+      "locale": "fa",
+      "claim_kind": "owner-instruction",
+      "truth_status": "owner_reported_intent_not_implemented",
+      "candidate_text_fa": "متن کامل چت وب‌سایت و واتس‌اپ حداکثر سه ماه؛ ساعت پیشنهادی پیام‌محور و پوشش تمام کپی‌ها هنوز نهایی نیست.",
+      "sensitivity": "internal_only",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/owner-facts.md",
+          "section": "F14 Chat retention",
+          "file_sha256": "70f1a60f137a2fadb74bd3ab196d95a599bd4f37452473baa14a6ec9553899f3",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "public_use": "not_a_public_privacy_statement",
+      "concept_id": "concept-pol04",
+      "category": "privacy_retention",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null
+    },
+    {
+      "id": "POL05",
+      "version": 1,
+      "kind": "policy_intent",
+      "topic": "identity_retention",
+      "locale": "fa",
+      "claim_kind": "owner-instruction",
+      "truth_status": "owner_reported_intent_not_implemented",
+      "candidate_text_fa": "پروفایل و حقایق مرتبط ساختاریافته بدون انقضای خودکار پیش‌فرض نگهداری شوند؛ دادهٔ نامرتبط/حساس یا خلاصهٔ جامع دائمی چت مفروض نیست؛ دسترسی/تصحیح/حذف باید بررسی شود.",
+      "sensitivity": "internal_only",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/owner-facts.md",
+          "section": "F15 Profile / relevant structured facts",
+          "file_sha256": "70f1a60f137a2fadb74bd3ab196d95a599bd4f37452473baa14a6ec9553899f3",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "public_use": "not_a_public_privacy_statement",
+      "concept_id": "concept-pol05",
+      "category": "privacy_retention",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null
+    },
+    {
+      "id": "KC08",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "faq_canonical_answer",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "draft_copy_not_owner_verified",
+      "candidate_text_fa": "نه. می‌توانید از فرایندی شروع کنید که خوب پیش نمی‌رود. اگر هم می‌دانید چه چیزی می‌خواهید ساخته شود، همان را توضیح دهید.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [
+        "assessment",
+        "automation"
+      ],
+      "related_record_ids": [
+        "KC02"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "6.10 FAQ, complete answers — item 1",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "service_dependency_mode": "any_of",
+      "concept_id": "concept-kc08",
+      "category": "prerequisites_limits",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null
+    },
+    {
+      "id": "KC09",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "faq_canonical_answer",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "draft_copy_not_owner_verified",
+      "candidate_text_fa": "نه. گاهی ساده‌کردن فرایند یا اتوماسیون معمولی مناسب‌تر است. انتخاب باید بر اساس مسئله، اطلاعات موجود و ریسک انجام شود.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [
+        "KC03"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "6.10 FAQ, complete answers — item 2",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-kc09",
+      "category": "answer_boundaries",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null
+    },
+    {
+      "id": "KC10",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "faq_canonical_answer",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "draft_copy_not_owner_verified",
+      "candidate_text_fa": "بگویید امروز کار چگونه انجام می‌شود، چه چیزی باید تغییر کند و از چه ابزارهایی استفاده می‌کنید. در پیام اول رمز، سوابق مشتری یا اسناد محرمانه نفرستید.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [
+        "KC02"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "6.10 FAQ, complete answers — item 3",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-kc10",
+      "category": "prerequisites_limits",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null
+    },
+    {
+      "id": "KC11",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "faq_canonical_answer",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "service_availability_unknown",
+      "candidate_text_fa": "بله. هدف، مخاطب و محتوای موردانتظار را توضیح دهید. دامنه اجرا همچنان باید بررسی شود.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [
+        "websites"
+      ],
+      "related_record_ids": [
+        "KC05"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "6.10 FAQ, complete answers — item 4 — Website variant",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-kc11",
+      "category": "services_deliverables",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "service_dependency_mode": "all_of",
+      "approved_text_fa": null
+    },
+    {
+      "id": "KC12",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "faq_canonical_answer",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "service_availability_unknown",
+      "candidate_text_fa": "بله. ابزارها، داده مجاز و خروجی موردانتظار را توضیح دهید. امکان‌پذیری و دامنه اجرا باید ابتدا بررسی شوند.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [
+        "automation"
+      ],
+      "related_record_ids": [
+        "KC04"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "6.10 FAQ, complete answers — item 4 — Integration variant",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-kc12",
+      "category": "services_deliverables",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "service_dependency_mode": "all_of",
+      "approved_text_fa": null
+    },
+    {
+      "id": "KC13",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "faq_canonical_answer",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "draft_copy_not_owner_verified",
+      "candidate_text_fa": "قیمت خدمات پیش از جلسهٔ مشاورهٔ رایگان اعلام نمی‌شود. هزینه و زمان به دامنه، اتصال‌ها، آمادگی داده و آزمون وابسته‌اند؛ عدد ثابت یا زمان تحویل قطعی داده نشده است.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [
+        "KC06"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "6.10 FAQ, complete answers — item 5",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        },
+        {
+          "path": "docs/owner-facts.md",
+          "section": "F16 Consultation rules",
+          "file_sha256": "70f1a60f137a2fadb74bd3ab196d95a599bd4f37452473baa14a6ec9553899f3",
+          "source_state": "owner_confirmed_rule_not_channel_approval"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-kc13",
+      "category": "commercial_policy",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null
+    },
+    {
+      "id": "KC14",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "faq_canonical_answer",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "draft_copy_not_owner_verified",
+      "candidate_text_fa": "پیش‌فرض این نیست. نقاط تأیید و مسئولیت‌ها باید برای همان کار مشخص شوند. تعهد مالی و تصمیم حساس نباید مثل یک کار عادیِ بدون نظارت در نظر گرفته شود.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [
+        "KC07"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/website-spec.md",
+          "section": "6.10 FAQ, complete answers — item 6",
+          "file_sha256": "ad1dabc95dfade1587e5394f9036f9a6d76d224f26953847dbdfa25088730764",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-kc14",
+      "category": "process_responsibilities",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null
+    },
+    {
+      "id": "POL06",
+      "version": 1,
+      "kind": "policy_intent",
+      "topic": "booking_rules",
+      "locale": "fa",
+      "claim_kind": "owner-instruction",
+      "truth_status": "owner_reported_intent_not_implemented",
+      "candidate_text_fa": "قواعد رزرو ۶۰دقیقه‌ای، دبی همهٔ روزها ۰۹ تا ۲۱/آخرین شروع۲۰، lead و gap حداقل۳۰، حداکثر۳رایگان و معافیت paid فقط از شمارش؛ قیمت پس از مشاوره رایگان.",
+      "sensitivity": "internal_only",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/owner-facts.md",
+          "section": "F16 Consultation rules",
+          "file_sha256": "70f1a60f137a2fadb74bd3ab196d95a599bd4f37452473baa14a6ec9553899f3",
+          "source_state": "internal_draft_reference_not_public_permission"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "public_use": "not_a_public_privacy_statement",
+      "concept_id": "concept-pol06",
+      "category": "contact_intake_handoff",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null
+    },
+    {
+      "id": "POL07",
+      "version": 1,
+      "kind": "policy_intent",
+      "topic": "meeting_requirements",
+      "locale": "fa",
+      "claim_kind": "owner-instruction",
+      "truth_status": "owner_reported_intent_not_implemented",
+      "candidate_text_fa": "یادآوری۳۰دقیقه قبل برای مالک و مشتری و ورود کامل مکالمه/ضبط Meet خواسته شده؛ قابلیت، مجوز، رونوشت فارسی و نگهداری جلسه هنوز گیت دارند.",
+      "sensitivity": "internal_only",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/owner-facts.md",
+          "section": "F17 Reminders",
+          "file_sha256": "70f1a60f137a2fadb74bd3ab196d95a599bd4f37452473baa14a6ec9553899f3",
+          "source_state": "internal_draft_reference_not_public_permission"
+        },
+        {
+          "path": "docs/owner-facts.md",
+          "section": "F18 Meet artifacts",
+          "file_sha256": "70f1a60f137a2fadb74bd3ab196d95a599bd4f37452473baa14a6ec9553899f3",
+          "source_state": "owner_confirmed_requirement_capability_not_assumed"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "public_use": "not_a_public_privacy_statement",
+      "concept_id": "concept-pol07",
+      "category": "privacy_retention",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null
+    },
+    {
+      "id": "KC15",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "owner_asserted_scope",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "owner_asserted_not_public_copy_approval_or_delivered_proof",
+      "candidate_text_fa": "مالک فقط توسعهٔ اختصاصی وب‌سایت و Web Application را می‌خواهد؛ هوشمندسازی وب‌سایت، از جمله افزودن چت‌بات، در دامنهٔ کلیِ اعلام‌شده است.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/prototype-fact-question-matrix.md",
+          "section": "KC15",
+          "file_sha256": "24759cf6af4611663f6a69ddfa152f636e0a4e494a8fcf3945a050a815d6fc4d",
+          "source_state": "trusted_owner_assertion_quoted_by_parent"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-kc15",
+      "category": "services_deliverables",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null,
+      "owner_evidence_ids": "Sentinel_451e563fee9c8191bc441655dbeea11f; Sentinel_6cd56f03d9cc8191aac0154f9a939188"
+    },
+    {
+      "id": "KC16",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "owner_asserted_scope",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "owner_asserted_not_public_copy_approval_or_delivered_proof",
+      "candidate_text_fa": "راهکار تلفنی به VoIP و ترانک موجودِ کسب‌وکار وابسته است؛ بدون آن‌ها روی تلفن انجام نمی‌شود.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/prototype-fact-question-matrix.md",
+          "section": "KC16",
+          "file_sha256": "24759cf6af4611663f6a69ddfa152f636e0a4e494a8fcf3945a050a815d6fc4d",
+          "source_state": "trusted_owner_assertion_quoted_by_parent"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-kc16",
+      "category": "prerequisites_limits",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null,
+      "owner_evidence_ids": "Sentinel_451e563fee9c8191bc441655dbeea11f"
+    },
+    {
+      "id": "KC17",
+      "version": 2,
+      "kind": "knowledge_candidate",
+      "topic": "owner_asserted_scope",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "owner_asserted_not_public_copy_approval_or_delivered_proof",
+      "candidate_text_fa": "پاسخ اولیه تحویل سناریو و عدم فیلم‌برداری را بیان کرد؛ پاسخ جدید مالک دامنهٔ سناریو، محتوای تولیدشده با AI و موشن را به‌صورت توافقی تأیید می‌کند. فیلم‌برداری انسانی انجام نمی‌شود.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [
+        "SV05"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/prototype-fact-question-matrix.md",
+          "section": "KC17",
+          "file_sha256": "24759cf6af4611663f6a69ddfa152f636e0a4e494a8fcf3945a050a815d6fc4d",
+          "source_state": "trusted_owner_assertion_quoted_by_parent"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-kc17",
+      "category": "prerequisites_limits",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null,
+      "owner_evidence_ids": "Sentinel_451e563fee9c8191bc441655dbeea11f; Sentinel_4e44f39eb2c0819187a9e247e1d95398",
+      "revision_reason": "New explicit owner scope supersedes earlier scenario-only limit; no public-copy approval inferred."
+    },
+    {
+      "id": "KC18",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "owner_asserted_scope",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "owner_asserted_not_public_copy_approval_or_delivered_proof",
+      "candidate_text_fa": "کلینیک/پلی‌کلینیک، رستوران و املاک حوزه‌های هدف‌اند؛ نام مشتری یا نمونهٔ تحویل‌شده نیستند.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/prototype-fact-question-matrix.md",
+          "section": "KC18",
+          "file_sha256": "24759cf6af4611663f6a69ddfa152f636e0a4e494a8fcf3945a050a815d6fc4d",
+          "source_state": "trusted_owner_assertion_quoted_by_parent"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-kc18",
+      "category": "client_fit_problems",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null,
+      "owner_evidence_ids": "Sentinel_923f9fd39164819181ee02a9c4d0c44b"
+    },
+    {
+      "id": "KC19",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "owner_asserted_scope",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "owner_asserted_not_public_copy_approval_or_delivered_proof",
+      "candidate_text_fa": "مسیر همکاری از شناخت نیاز و چالش کسب‌وکار به راهکار شخصی‌سازی‌شده می‌رسد؛ همهٔ ابزارها به‌صورت مجزا برای فروش فهرست نمی‌شوند.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/prototype-fact-question-matrix.md",
+          "section": "KC19",
+          "file_sha256": "24759cf6af4611663f6a69ddfa152f636e0a4e494a8fcf3945a050a815d6fc4d",
+          "source_state": "trusted_owner_assertion_quoted_by_parent"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-kc19",
+      "category": "process_responsibilities",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null,
+      "owner_evidence_ids": "Sentinel_923f9fd39164819181ee02a9c4d0c44b; Sentinel_736438b25dc8819195c2445a4110ed1b"
+    },
+    {
+      "id": "SV01",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "current_offered_service",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "owner_confirmed_currently_offered_not_delivered_proof_or_public_copy_approval",
+      "candidate_text_fa": "وب‌سایت و Web Application اختصاصی",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/service-capability-matrix.md",
+          "section": "SV01",
+          "file_sha256": "f6b6ecbc1f09ad232b91a192cd29d927890c0c83ae422d37e0987adf0119aa57",
+          "source_state": "explicit_owner_availability_answer_and_conditional_editorial_example"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-sv01",
+      "category": "services_deliverables",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "service_dependency_mode": "all_of",
+      "approved_text_fa": null,
+      "availability": "currently_offered_owner_asserted",
+      "delivery_evidence_status": "not_provided"
+    },
+    {
+      "id": "SV02",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "current_offered_service",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "owner_confirmed_currently_offered_not_delivered_proof_or_public_copy_approval",
+      "candidate_text_fa": "AI Reception و پاسخ‌گویی مشتری",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/service-capability-matrix.md",
+          "section": "SV02",
+          "file_sha256": "f6b6ecbc1f09ad232b91a192cd29d927890c0c83ae422d37e0987adf0119aa57",
+          "source_state": "explicit_owner_availability_answer_and_conditional_editorial_example"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-sv02",
+      "category": "services_deliverables",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "service_dependency_mode": "all_of",
+      "approved_text_fa": null,
+      "availability": "currently_offered_owner_asserted",
+      "delivery_evidence_status": "not_provided"
+    },
+    {
+      "id": "SV03",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "current_offered_service",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "owner_confirmed_currently_offered_not_delivered_proof_or_public_copy_approval",
+      "candidate_text_fa": "اتصال و اتوماسیون فرایندها؛ API/Webhook و CRM",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/service-capability-matrix.md",
+          "section": "SV03",
+          "file_sha256": "f6b6ecbc1f09ad232b91a192cd29d927890c0c83ae422d37e0987adf0119aa57",
+          "source_state": "explicit_owner_availability_answer_and_conditional_editorial_example"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-sv03",
+      "category": "services_deliverables",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "service_dependency_mode": "all_of",
+      "approved_text_fa": null,
+      "availability": "currently_offered_owner_asserted",
+      "delivery_evidence_status": "not_provided"
+    },
+    {
+      "id": "SV04",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "current_offered_service",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "owner_confirmed_currently_offered_not_delivered_proof_or_public_copy_approval",
+      "candidate_text_fa": "ثبت و تحلیل چرخهٔ مشتری",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/service-capability-matrix.md",
+          "section": "SV04",
+          "file_sha256": "f6b6ecbc1f09ad232b91a192cd29d927890c0c83ae422d37e0987adf0119aa57",
+          "source_state": "explicit_owner_availability_answer_and_conditional_editorial_example"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-sv04",
+      "category": "services_deliverables",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "service_dependency_mode": "all_of",
+      "approved_text_fa": null,
+      "availability": "currently_offered_owner_asserted",
+      "delivery_evidence_status": "not_provided"
+    },
+    {
+      "id": "SV05",
+      "version": 1,
+      "kind": "knowledge_candidate",
+      "topic": "current_offered_service",
+      "locale": "fa",
+      "claim_kind": "project-copy-candidate",
+      "truth_status": "owner_confirmed_currently_offered_not_delivered_proof_or_public_copy_approval",
+      "candidate_text_fa": "سناریو و محتوای تولیدشده با AI",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/service-capability-matrix.md",
+          "section": "SV05",
+          "file_sha256": "f6b6ecbc1f09ad232b91a192cd29d927890c0c83ae422d37e0987adf0119aa57",
+          "source_state": "explicit_owner_availability_answer_and_conditional_editorial_example"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-sv05",
+      "category": "services_deliverables",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "service_dependency_mode": "all_of",
+      "approved_text_fa": null,
+      "availability": "currently_offered_owner_asserted",
+      "delivery_evidence_status": "not_provided"
+    },
+    {
+      "id": "EX01",
+      "version": 1,
+      "kind": "illustrative_story_draft",
+      "topic": "concept_example",
+      "locale": "fa",
+      "claim_kind": "hypothetical-example",
+      "truth_status": "fictional_editorial_example_not_customer_evidence",
+      "candidate_text_fa": "مشتری آمده؛ قدم بعدی چیست؟",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [
+        "SV01"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/service-stories-fa-draft.md",
+          "section": "SV01",
+          "file_sha256": "38d53065946e3928f93981fc47a543a0b9bd9ed75bcf0f358b5ddbd56b666ac7",
+          "source_state": "supplied_hypothetical_editorial_packet_not_owner_copy_approval"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "example-web",
+      "category": "answer_boundaries",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null,
+      "offered_service_id": "SV01"
+    },
+    {
+      "id": "EX02",
+      "version": 1,
+      "kind": "illustrative_story_draft",
+      "topic": "concept_example",
+      "locale": "fa",
+      "claim_kind": "hypothetical-example",
+      "truth_status": "fictional_editorial_example_not_customer_evidence",
+      "candidate_text_fa": "سؤال مشتری؛ ادامهٔ مسیر",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [
+        "SV02"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/service-stories-fa-draft.md",
+          "section": "SV02",
+          "file_sha256": "38d53065946e3928f93981fc47a543a0b9bd9ed75bcf0f358b5ddbd56b666ac7",
+          "source_state": "supplied_hypothetical_editorial_packet_not_owner_copy_approval"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "example-reception",
+      "category": "answer_boundaries",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null,
+      "offered_service_id": "SV02"
+    },
+    {
+      "id": "EX03",
+      "version": 1,
+      "kind": "illustrative_story_draft",
+      "topic": "concept_example",
+      "locale": "fa",
+      "claim_kind": "hypothetical-example",
+      "truth_status": "fictional_editorial_example_not_customer_evidence",
+      "candidate_text_fa": "اطلاعات ثبت شد؛ دوباره چرا؟",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [
+        "SV03"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/service-stories-fa-draft.md",
+          "section": "SV03",
+          "file_sha256": "38d53065946e3928f93981fc47a543a0b9bd9ed75bcf0f358b5ddbd56b666ac7",
+          "source_state": "supplied_hypothetical_editorial_packet_not_owner_copy_approval"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "example-automation",
+      "category": "answer_boundaries",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null,
+      "offered_service_id": "SV03"
+    },
+    {
+      "id": "EX04",
+      "version": 1,
+      "kind": "illustrative_story_draft",
+      "topic": "concept_example",
+      "locale": "fa",
+      "claim_kind": "hypothetical-example",
+      "truth_status": "fictional_editorial_example_not_customer_evidence",
+      "candidate_text_fa": "دفعهٔ قبل چه گفته بود؟",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [
+        "SV04"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/service-stories-fa-draft.md",
+          "section": "SV04",
+          "file_sha256": "38d53065946e3928f93981fc47a543a0b9bd9ed75bcf0f358b5ddbd56b666ac7",
+          "source_state": "supplied_hypothetical_editorial_packet_not_owner_copy_approval"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "example-lifecycle",
+      "category": "answer_boundaries",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null,
+      "offered_service_id": "SV04"
+    },
+    {
+      "id": "EX05",
+      "version": 1,
+      "kind": "illustrative_story_draft",
+      "topic": "concept_example",
+      "locale": "fa",
+      "claim_kind": "hypothetical-example",
+      "truth_status": "fictional_editorial_example_not_customer_evidence",
+      "candidate_text_fa": "محصول هست؛ داستانش چیست؟",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [
+        "SV05"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/service-stories-fa-draft.md",
+          "section": "SV05",
+          "file_sha256": "38d53065946e3928f93981fc47a543a0b9bd9ed75bcf0f358b5ddbd56b666ac7",
+          "source_state": "supplied_hypothetical_editorial_packet_not_owner_copy_approval"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "example-content",
+      "category": "answer_boundaries",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null,
+      "offered_service_id": "SV05"
+    },
+    {
+      "id": "CP01",
+      "version": 1,
+      "kind": "owner_approved_wording",
+      "topic": "hero_identity",
+      "locale": "fa",
+      "claim_kind": "owner-approved-wording",
+      "truth_status": "business_facts_retained_wording_rejected",
+      "candidate_text_fa": "AI & Automation\nکارهای تکراری را خودکار کنید؛ وظایف پراکنده را به یک فرایند هماهنگ تبدیل کنید.\nمن افشین هستم. برای کسب‌وکارها راهکارهای هوش مصنوعی و اتوماسیون طراحی و راه‌اندازی می‌کنم: از کمک به تیم‌های انسانی و خودکارکردن کارهای تکراری، تا ساخت ایجنت‌های تخصصی برای وظایفی که نیروی اختصاصی ندارند. هدف، فقط انجام یک کار نیست؛ اتصال مراحل و اطلاعات است تا ادامهٔ کار روشن‌تر و تصمیم‌گیری آگاهانه‌تر شود.\nدربارهٔ فرایند کسب‌وکارت صحبت کنیم",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/approved-persian-copy-20261022.md",
+          "section": "CP01",
+          "file_sha256": "fd61bd35ab504b616f68e8b0a29179e01dd4c569b03267712ae8a47d87dfe6c2",
+          "source_state": "trusted_exact_owner_wording_approval",
+          "previous_file_sha256": "d3923b4663bfdae62cf7c371a70a21967303a5895b4bc6f768e7520880327795"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "activation_not_authorized",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "activation_not_authorized",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-cp01",
+      "category": "services_deliverables",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null,
+      "owner_wording_approval": {
+        "status": "superseded_language_rejected",
+        "reviewer": "Afshin (owner)",
+        "reviewed_on": "2026-10-22",
+        "exact_time": null,
+        "source_id": "Sentinel_2d1d164091a081919d7b906dde6a0692",
+        "approved_content_sha256": "8c3502198b687224feb183a3f80f13be6d3aabda4631091aeaf90fc91356ea55",
+        "superseded_by": "Sentinel_6bbcc168ea8c8191a5fe12f810d58ada",
+        "superseded_on": "2026-10-22"
+      },
+      "historical_approved_text_fa": "AI & Automation\nکارهای تکراری را خودکار کنید؛ وظایف پراکنده را به یک فرایند هماهنگ تبدیل کنید.\nمن افشین هستم. برای کسب‌وکارها راهکارهای هوش مصنوعی و اتوماسیون طراحی و راه‌اندازی می‌کنم: از کمک به تیم‌های انسانی و خودکارکردن کارهای تکراری، تا ساخت ایجنت‌های تخصصی برای وظایفی که نیروی اختصاصی ندارند. هدف، فقط انجام یک کار نیست؛ اتصال مراحل و اطلاعات است تا ادامهٔ کار روشن‌تر و تصمیم‌گیری آگاهانه‌تر شود.\nدربارهٔ فرایند کسب‌وکارت صحبت کنیم",
+      "historical_owner_wording_approval": {
+        "status": "approved",
+        "reviewer": "Afshin (owner)",
+        "reviewed_on": "2026-10-22",
+        "exact_time": null,
+        "source_id": "Sentinel_2d1d164091a081919d7b906dde6a0692",
+        "approved_content_sha256": "8c3502198b687224feb183a3f80f13be6d3aabda4631091aeaf90fc91356ea55"
+      },
+      "wording_review_status": "new_persian_rewrite_and_owner_review_required"
+    },
+    {
+      "id": "CP02",
+      "version": 1,
+      "kind": "owner_approved_wording",
+      "topic": "three_service_paths",
+      "locale": "fa",
+      "claim_kind": "owner-approved-wording",
+      "truth_status": "business_facts_retained_wording_rejected",
+      "candidate_text_fa": "در کنار تیم شما\nکارهای تکراری و جابه‌جایی دستی اطلاعات را خودکار می‌کنیم تا افراد روی کارهایی تمرکز کنند که به تخصص و قضاوتشان نیاز دارد.\nایجنت متخصص برای وظیفهٔ مشخص\nبرای وظایف تعریف‌شده، ایجنتی طراحی می‌کنیم که کار را به‌صورت تکرارشونده و در محدودهٔ دسترسی و قواعد تعیین‌شده انجام دهد؛ بدون نیاز به اجرای دستی هر بار. موارد خارج از این محدوده، مسیر بررسی انسانی دارند.\nاتصال وظایف و اطلاعات\nمراحل جدا از هم را به یک فرایند متصل تبدیل می‌کنیم؛ اطلاعات هر مرحله به مرحلهٔ بعد می‌رسد و می‌تواند برای شناسایی فرصت‌ها و تصمیم‌های بعدی استفاده شود.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/approved-persian-copy-20261022.md",
+          "section": "CP02",
+          "file_sha256": "fd61bd35ab504b616f68e8b0a29179e01dd4c569b03267712ae8a47d87dfe6c2",
+          "source_state": "trusted_exact_owner_wording_approval",
+          "previous_file_sha256": "d3923b4663bfdae62cf7c371a70a21967303a5895b4bc6f768e7520880327795"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "activation_not_authorized",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "activation_not_authorized",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-cp02",
+      "category": "services_deliverables",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null,
+      "owner_wording_approval": {
+        "status": "superseded_language_rejected",
+        "reviewer": "Afshin (owner)",
+        "reviewed_on": "2026-10-22",
+        "exact_time": null,
+        "source_id": "Sentinel_2d1d164091a081919d7b906dde6a0692",
+        "approved_content_sha256": "3d1d167eeac924099a8529205dc96c2989b94d5002a185fc3a57dd451daa3148",
+        "superseded_by": "Sentinel_6bbcc168ea8c8191a5fe12f810d58ada",
+        "superseded_on": "2026-10-22"
+      },
+      "historical_approved_text_fa": "در کنار تیم شما\nکارهای تکراری و جابه‌جایی دستی اطلاعات را خودکار می‌کنیم تا افراد روی کارهایی تمرکز کنند که به تخصص و قضاوتشان نیاز دارد.\nایجنت متخصص برای وظیفهٔ مشخص\nبرای وظایف تعریف‌شده، ایجنتی طراحی می‌کنیم که کار را به‌صورت تکرارشونده و در محدودهٔ دسترسی و قواعد تعیین‌شده انجام دهد؛ بدون نیاز به اجرای دستی هر بار. موارد خارج از این محدوده، مسیر بررسی انسانی دارند.\nاتصال وظایف و اطلاعات\nمراحل جدا از هم را به یک فرایند متصل تبدیل می‌کنیم؛ اطلاعات هر مرحله به مرحلهٔ بعد می‌رسد و می‌تواند برای شناسایی فرصت‌ها و تصمیم‌های بعدی استفاده شود.",
+      "historical_owner_wording_approval": {
+        "status": "approved",
+        "reviewer": "Afshin (owner)",
+        "reviewed_on": "2026-10-22",
+        "exact_time": null,
+        "source_id": "Sentinel_2d1d164091a081919d7b906dde6a0692",
+        "approved_content_sha256": "3d1d167eeac924099a8529205dc96c2989b94d5002a185fc3a57dd451daa3148"
+      },
+      "wording_review_status": "new_persian_rewrite_and_owner_review_required"
+    },
+    {
+      "id": "CP03",
+      "version": 1,
+      "kind": "owner_approved_wording",
+      "topic": "support_policy",
+      "locale": "fa",
+      "claim_kind": "owner-approved-wording",
+      "truth_status": "business_facts_retained_wording_rejected",
+      "candidate_text_fa": "تا یک هفته پس از تحویل سرویس، اگر اشکالی در اجرای همان سرویس وجود داشته باشد، رفع آن بدون هزینه انجام می‌شود.\nپس از آن، نگهداری و رفع اشکال در قالب خدمات پشتیبانی یک‌ماهه و با دریافت هزینه ارائه می‌شود. این پشتیبانی مربوط به سرویس و وظایف توافق‌شده است؛ افزودن قابلیت یا وظیفهٔ جدید، نیازمند تعیین محدوده و هزینهٔ جداگانه است.",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [],
+      "source_refs": [
+        {
+          "path": "docs/approved-persian-copy-20261022.md",
+          "section": "CP03",
+          "file_sha256": "fd61bd35ab504b616f68e8b0a29179e01dd4c569b03267712ae8a47d87dfe6c2",
+          "source_state": "trusted_exact_owner_wording_approval",
+          "previous_file_sha256": "d3923b4663bfdae62cf7c371a70a21967303a5895b4bc6f768e7520880327795"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "activation_not_authorized",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "activation_not_authorized",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "concept_id": "concept-cp03",
+      "category": "commercial_policy",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "approved_text_fa": null,
+      "owner_wording_approval": {
+        "status": "superseded_language_rejected",
+        "reviewer": "Afshin (owner)",
+        "reviewed_on": "2026-10-22",
+        "exact_time": null,
+        "source_id": "Sentinel_2d1d164091a081919d7b906dde6a0692",
+        "approved_content_sha256": "4094dc05d5e8ac40132ab512644c409d52eb6f56b5af094ac4089d3f9103b92e",
+        "superseded_by": "Sentinel_6bbcc168ea8c8191a5fe12f810d58ada",
+        "superseded_on": "2026-10-22"
+      },
+      "historical_approved_text_fa": "تا یک هفته پس از تحویل سرویس، اگر اشکالی در اجرای همان سرویس وجود داشته باشد، رفع آن بدون هزینه انجام می‌شود.\nپس از آن، نگهداری و رفع اشکال در قالب خدمات پشتیبانی یک‌ماهه و با دریافت هزینه ارائه می‌شود. این پشتیبانی مربوط به سرویس و وظایف توافق‌شده است؛ افزودن قابلیت یا وظیفهٔ جدید، نیازمند تعیین محدوده و هزینهٔ جداگانه است.",
+      "historical_owner_wording_approval": {
+        "status": "approved",
+        "reviewer": "Afshin (owner)",
+        "reviewed_on": "2026-10-22",
+        "exact_time": null,
+        "source_id": "Sentinel_2d1d164091a081919d7b906dde6a0692",
+        "approved_content_sha256": "4094dc05d5e8ac40132ab512644c409d52eb6f56b5af094ac4089d3f9103b92e"
+      },
+      "wording_review_status": "new_persian_rewrite_and_owner_review_required"
+    },
+    {
+      "id": "FAQ08",
+      "version": 1,
+      "kind": "faq_draft",
+      "topic": "faq",
+      "locale": "fa",
+      "claim_kind": "candidate_project_copy",
+      "truth_status": "draft_copy_not_owner_verified",
+      "sensitivity": "public_candidate",
+      "service_dependencies": [],
+      "related_record_ids": [
+        "CP03"
+      ],
+      "source_refs": [
+        {
+          "path": "docs/approved-persian-copy-20261022.md",
+          "section": "CP03",
+          "file_sha256": "fd61bd35ab504b616f68e8b0a29179e01dd4c569b03267712ae8a47d87dfe6c2",
+          "source_state": "answer_wording_approved_question_is_draft",
+          "previous_file_sha256": "d3923b4663bfdae62cf7c371a70a21967303a5895b4bc6f768e7520880327795"
+        }
+      ],
+      "approvals": {
+        "public_site": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "public_chat": {
+          "status": "not_requested",
+          "approved_content_hash": null,
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "public_source_urls": [],
+      "ingestible": false,
+      "review_due_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": null,
+      "revoked_at": null,
+      "question_fa": "هوش مصنوعی بدون بررسی انسان عمل می‌کند؟",
+      "candidate_answer_ref": "CP03",
+      "supporting_knowledge_ids": [
+        "CP03"
+      ],
+      "approved_answer": null,
+      "question_variants_fa": [
+        "پشتیبانی چگونه ارائه می‌شود؟"
+      ],
+      "uncertainty_behavior": {
+        "missing_conflicting_expired_or_revoked_evidence": "do_not_answer_as_fact; disclose_limit; offer_human_path_if_needed",
+        "human_requested": "intake_required_before_whatsapp",
+        "unknown_service_availability": "do_not_offer_or_promise_delivery",
+        "booking_or_notification_claim": "only_actual_verified_operation_state; no native_guest_alarm_or_auto_recording_assumption"
+      },
+      "concept_id": "faq-support",
+      "category": "process_responsibilities",
+      "translation_review": {
+        "en": {
+          "state": "not_started_after_fa_acceptance",
+          "approval_inherited": false
+        }
+      },
+      "answer_review_status": "blocked_pending_persian_rewrite_and_owner_review",
+      "historical_answer_ref": "CP03"
+    }
+  ],
+  "not_implemented": [
+    "database",
+    "backend",
+    "n8n_contract",
+    "workflow_changes",
+    "model_or_embedding_calls",
+    "ingestion",
+    "visitor_collection",
+    "publication"
+  ],
+  "taxonomy": [
+    {
+      "id": "identity",
+      "label_fa": "هویت",
+      "candidate_record_ids": [
+        "KC01"
+      ],
+      "approved_record_ids": [],
+      "status": "no_approved_records"
+    },
+    {
+      "id": "services_deliverables",
+      "label_fa": "خدمات و خروجی واقعی",
+      "candidate_record_ids": [
+        "KC03",
+        "KC04",
+        "KC05",
+        "KC11",
+        "KC12",
+        "KC15",
+        "SV01",
+        "SV02",
+        "SV03",
+        "SV04",
+        "SV05"
+      ],
+      "approved_record_ids": [],
+      "status": "no_approved_records"
+    },
+    {
+      "id": "client_fit_problems",
+      "label_fa": "تناسب و مسئله",
+      "candidate_record_ids": [
+        "KC02",
+        "KC18"
+      ],
+      "approved_record_ids": [],
+      "status": "no_approved_records"
+    },
+    {
+      "id": "process_responsibilities",
+      "label_fa": "فرایند و مسئولیت",
+      "candidate_record_ids": [
+        "KC06",
+        "KC14",
+        "KC19"
+      ],
+      "approved_record_ids": [],
+      "status": "no_approved_records"
+    },
+    {
+      "id": "prerequisites_limits",
+      "label_fa": "پیش‌نیاز و مرز",
+      "candidate_record_ids": [
+        "KC08",
+        "KC10",
+        "KC16",
+        "KC17"
+      ],
+      "approved_record_ids": [],
+      "status": "no_approved_records"
+    },
+    {
+      "id": "commercial_policy",
+      "label_fa": "سیاست تجاری مصوب",
+      "candidate_record_ids": [
+        "KC13"
+      ],
+      "approved_record_ids": [],
+      "status": "no_approved_records"
+    },
+    {
+      "id": "authorized_proof",
+      "label_fa": "شواهد مجاز",
+      "candidate_record_ids": [],
+      "approved_record_ids": [],
+      "status": "no_approved_records"
+    },
+    {
+      "id": "contact_intake_handoff",
+      "label_fa": "تماس و فرم و ارجاع",
+      "candidate_record_ids": [
+        "POL02",
+        "POL06"
+      ],
+      "approved_record_ids": [],
+      "status": "no_approved_records"
+    },
+    {
+      "id": "privacy_retention",
+      "label_fa": "حریم خصوصی و ماندگاری",
+      "candidate_record_ids": [
+        "POL04",
+        "POL05",
+        "POL07"
+      ],
+      "approved_record_ids": [],
+      "status": "no_approved_records"
+    },
+    {
+      "id": "answer_boundaries",
+      "label_fa": "مرز پاسخ",
+      "candidate_record_ids": [
+        "KC07",
+        "POL01",
+        "POL03",
+        "KC09",
+        "EX01",
+        "EX02",
+        "EX03",
+        "EX04",
+        "EX05"
+      ],
+      "approved_record_ids": [],
+      "status": "no_approved_records"
+    }
+  ],
+  "schema_contract": {
+    "draft_only": true,
+    "knowledge": "canonical content version + source provenance + independent channel approval",
+    "faq": "question variants + supporting knowledge IDs + candidate answer reference + approved answer only after actual review",
+    "private_provenance": "never emitted as public citation",
+    "public_citations": "separate reviewed URL allowlist",
+    "dependent_approval_invalidation": [
+      "source_change",
+      "content_change",
+      "service_state_change",
+      "withdrawal",
+      "translation_change"
+    ],
+    "enforcement": "deny before retrieval and recheck before output; not prompt-only",
+    "reviewer_and_date": "actual values only; null means unapproved"
+  },
+  "source_inventory": [
+    {
+      "path": "docs/website-spec.md",
+      "eligible_for_automatic_ingestion": false,
+      "purpose": "manually selected copy candidates with exact section provenance; whole document excluded"
+    },
+    {
+      "path": "docs/owner-facts.md",
+      "eligible_for_automatic_ingestion": false,
+      "purpose": "internal status/unknown gates and owner policy intent; whole document excluded"
+    },
+    {
+      "path": "docs/geo-aeo-architecture.md",
+      "eligible_for_automatic_ingestion": false,
+      "purpose": "internal platform research; not business capability approval"
+    },
+    {
+      "path": "docs/decisions.md",
+      "eligible_for_automatic_ingestion": false,
+      "purpose": "internal design decisions"
+    },
+    {
+      "path": "docs/implementation-plan.md",
+      "eligible_for_automatic_ingestion": false,
+      "purpose": "internal task tracker"
+    },
+    {
+      "path": "docs/reference-readiness-review.md",
+      "eligible_for_automatic_ingestion": false,
+      "purpose": "dated document review only"
+    },
+    {
+      "path": "AGENTS.md",
+      "eligible_for_automatic_ingestion": false,
+      "purpose": "internal agent instructions"
+    },
+    {
+      "path": "README.md",
+      "eligible_for_automatic_ingestion": false,
+      "purpose": "project entrypoint"
+    },
+    {
+      "path": "CLAUDE.md",
+      "eligible_for_automatic_ingestion": false,
+      "purpose": "agent instruction import"
+    },
+    {
+      "path": "installation-manifest.json",
+      "eligible_for_automatic_ingestion": false,
+      "purpose": "installed tools metadata, not business proof"
+    },
+    {
+      "path": "docs/skills-usage.md",
+      "eligible_for_automatic_ingestion": false,
+      "purpose": "internal tools guide"
+    },
+    {
+      "path": "docs/skills-smoke-tests.json",
+      "eligible_for_automatic_ingestion": false,
+      "purpose": "internal installation checks"
+    },
+    {
+      "path": "docs/codex-discovery-before-graphify.json",
+      "eligible_for_automatic_ingestion": false,
+      "purpose": "historical local discovery"
+    },
+    {
+      "path": "docs/codex-discovery-after-graphify.json",
+      "eligible_for_automatic_ingestion": false,
+      "purpose": "historical local discovery"
+    },
+    {
+      "path": "docs/reference-placement-verification.json",
+      "eligible_for_automatic_ingestion": false,
+      "purpose": "historical original placement hashes"
+    },
+    {
+      "path": "docs/geo-aeo-revision-verification.json",
+      "eligible_for_automatic_ingestion": false,
+      "purpose": "historical GEO revision checks"
+    },
+    {
+      "path": "docs/approved-persian-copy-20261022.md",
+      "eligible_for_automatic_ingestion": false,
+      "purpose": "canonical exact three owner-approved Persian blocks; manual channel activation/export still gated"
+    },
+    {
+      "path": "docs/handoff-status-20261022.md",
+      "eligible_for_automatic_ingestion": false,
+      "purpose": "internal execution handoff; not public knowledge or approval"
+    },
+    {
+      "path": "docs/vscode-start-prompt-fa.md",
+      "eligible_for_automatic_ingestion": false,
+      "purpose": "internal execution handoff; not public knowledge or approval"
+    }
+  ],
+  "excluded_tree_prefixes": [
+    "private/",
+    ".skill-setup/",
+    ".agents/",
+    ".claude/",
+    ".taste-skill/",
+    "vendor/",
+    ".git/"
+  ],
+  "booking_contract": {
+    "state": "planned_not_implemented",
+    "mode": "actual_google_calendar_with_meet",
+    "intake_fields_required_count": 9,
+    "ui": "bottom_sheet_owner_confirmed",
+    "slot_selection": "explicit_customer_selection_then_serialized_revalidation",
+    "timezone": "Asia/Dubai",
+    "days": "all",
+    "local_start": "09:00",
+    "local_end": "21:00",
+    "latest_start": "20:00",
+    "reserved_minutes": 60,
+    "minimum_lead_minutes_at_commit": 30,
+    "minimum_gap_minutes": 30,
+    "max_free_per_local_day": 3,
+    "paid_status": "verified_internal_not_client_flag",
+    "paid_exemption": "free_count_only",
+    "service_prices": "not_quoted_before_free_consultation",
+    "reminders": {
+      "minutes_before": 30,
+      "recipients": [
+        "owner",
+        "customer"
+      ],
+      "native_guest_alarm_guaranteed": false,
+      "delivery_mechanism": "pending_capability_and_permission_review",
+      "owner_native_reminder": "authenticated_user_specific; authorized owner account only",
+      "guest_email_reminder": "PROPOSED_OWNER_APPROVAL_PENDING",
+      "sendUpdates_all": "invitation_or_update_not_scheduled_reminder",
+      "guest_account_access_default": false
+    },
+    "idempotency": "shared_web_whatsapp_operation_id; reconcile_unknown_before_retry",
+    "calendar_disclosure": "free_slots_only_no_private_event_titles",
+    "meet_pending": "retry_reconcile_same_event_not_duplicate",
+    "runtime_configured": false,
+    "external_calendar_consistency": "shared local transactional gate plus final busy recheck and external conflict/unknown-outcome reconciliation; no distributed atomicity claim"
+  },
+  "logical_entities": [
+    {
+      "name": "CustomerProfile",
+      "contract": "opaque customer identity; private; no contact-match auto-merge",
+      "example_records": []
+    },
+    {
+      "name": "ContactPoint",
+      "contract": "channel, verification and contact permission; not unique-human key",
+      "example_records": []
+    },
+    {
+      "name": "Business",
+      "contract": "declared business name/activity/employee count; private",
+      "example_records": []
+    },
+    {
+      "name": "Relationship",
+      "contract": "reported/verified person-business relationship; not an authorization grant",
+      "example_records": []
+    },
+    {
+      "name": "ConsultationRequest",
+      "contract": "references profile/business; topic/time preference; all-nine validated state",
+      "example_records": []
+    },
+    {
+      "name": "CustomerFact",
+      "contract": "atomic relevant structured value, provenance/time/sensitivity/purpose/status; no transcript blobs or comprehensive retained summaries",
+      "example_records": []
+    },
+    {
+      "name": "Conversation",
+      "contract": "channel/session authorization and lifecycle; no cross-customer access",
+      "example_records": []
+    },
+    {
+      "name": "Message",
+      "contract": "per-message created/expiry proposal; web and WhatsApp",
+      "example_records": []
+    },
+    {
+      "name": "Attachment",
+      "contract": "private content classification and lifecycle including derivatives",
+      "example_records": []
+    },
+    {
+      "name": "KnowledgeVersion",
+      "contract": "exact canonical version and separate site/chat/language approvals",
+      "example_records": []
+    },
+    {
+      "name": "FAQ",
+      "contract": "question variants, canonical knowledge references and uncertainty policy",
+      "example_records": []
+    },
+    {
+      "name": "SlotHold",
+      "contract": "time-bound capacity hold; release/reconcile before new attempt",
+      "example_records": []
+    },
+    {
+      "name": "Booking",
+      "contract": "final slot, owner rules, verified-paid state, event/conference ids and unknown/pending states",
+      "example_records": []
+    },
+    {
+      "name": "DeliveryJob",
+      "contract": "recipient/kind/due/status/idempotency; API acceptance is not receipt evidence",
+      "example_records": []
+    },
+    {
+      "name": "MeetingArtifact",
+      "contract": "private full recording/transcript/artifact provenance/permissions/language and separate unresolved retention",
+      "example_records": []
+    },
+    {
+      "name": "Permission",
+      "contract": "purpose/channel/access scope/withdrawal; actual authority evidence",
+      "example_records": []
+    },
+    {
+      "name": "DeletionRecord",
+      "contract": "deletion and backup/restore coverage without retaining deleted content",
+      "example_records": []
+    },
+    {
+      "name": "AuditRecord",
+      "contract": "minimal necessary audit data; no sensitive text payload",
+      "example_records": []
+    }
+  ],
+  "pending_owner_inputs": [
+    {
+      "id": "O01",
+      "topic": "approve_separate_guest_reminder_email",
+      "status": "pending"
+    },
+    {
+      "id": "O02",
+      "topic": "actual_organizer_google_plan",
+      "status": "unknown"
+    },
+    {
+      "id": "O03",
+      "topic": "meeting_recording_and_transcript_retention",
+      "status": "pending"
+    }
+  ],
+  "google_evidence": {
+    "retrieved_date": "2026-10-22",
+    "reviewed_by": "parent researcher; supplied official evidence packet",
+    "publication_update_dates": "unknown_not_confirmed",
+    "local_executor_reopened_pages": false,
+    "urls": [
+      "https://developers.google.com/workspace/calendar/api/concepts/reminders",
+      "https://developers.google.com/workspace/calendar/api/v3/reference/events",
+      "https://support.google.com/meet/answer/9308681?hl=en",
+      "https://support.google.com/meet/answer/12849897?hl=en",
+      "https://developers.google.com/workspace/meet/api/guides/meeting-spaces-configuration",
+      "https://developers.google.com/workspace/events/guides/events-meet",
+      "https://developers.google.com/workspace/meet/api/guides/artifacts",
+      "https://developers.google.com/workspace/drive/api/guides/manage-downloads",
+      "https://developers.google.com/workspace/meet/api/guides/authenticate-authorize"
+    ]
+  },
+  "readiness": "DOCUMENTS_AND_VSCODE_PROMPT_ONLY_NEW_LANGUAGE_AND_DESIGN_PENDING_OWNER_REVIEW",
+  "local_prototype": "prototype/public; only fixed synthetic inputs; no integrations",
+  "service_scope_correction": "Five groups currently offered by explicit owner answer; source-grounded hypothetical drafts allowed in same two local pages; no delivered proof or public-copy approval.",
+  "service_groups": [
+    {
+      "id": "SV01",
+      "name_fa": "وب‌سایت و Web Application اختصاصی",
+      "currently_offered": true,
+      "availability_basis": "explicit_owner_statement",
+      "public_copy_approved": false,
+      "delivered_project_evidence": false
+    },
+    {
+      "id": "SV02",
+      "name_fa": "AI Reception و پاسخ‌گویی مشتری",
+      "currently_offered": true,
+      "availability_basis": "explicit_owner_statement",
+      "public_copy_approved": false,
+      "delivered_project_evidence": false
+    },
+    {
+      "id": "SV03",
+      "name_fa": "اتصال و اتوماسیون فرایندها؛ API/Webhook و CRM",
+      "currently_offered": true,
+      "availability_basis": "explicit_owner_statement",
+      "public_copy_approved": false,
+      "delivered_project_evidence": false
+    },
+    {
+      "id": "SV04",
+      "name_fa": "ثبت و تحلیل چرخهٔ مشتری",
+      "currently_offered": true,
+      "availability_basis": "explicit_owner_statement",
+      "public_copy_approved": false,
+      "delivered_project_evidence": false
+    },
+    {
+      "id": "SV05",
+      "name_fa": "سناریو و محتوای تولیدشده با AI",
+      "currently_offered": true,
+      "availability_basis": "explicit_owner_statement",
+      "public_copy_approved": false,
+      "delivered_project_evidence": false
+    }
+  ],
+  "support_terms": {
+    "status": "OWNER_CONFIRMED_BUSINESS_POLICY_PERSIAN_WORDING_REVIEW_PENDING",
+    "defect_window": "one week after delivery; execution defects of same service; no charge",
+    "then": "paid one-month support for agreed service/tasks",
+    "new_tasks": "separate scope/cost",
+    "price_amount": null,
+    "sla": null,
+    "historical_wording_record_id": "CP03",
+    "business_policy_retained": true
+  },
+  "commercial_policy_internal": {
+    "code_handoff": "after_full_settlement_owner_confirmed",
+    "installment_ownership": "owner_intent_provider_until_final_payment_then_customer; private_contract_review_required",
+    "customer_data_or_third_party_ownership_inferred": false,
+    "training": "if_needed; no_hours_or_SLA_inferred"
+  },
+  "owner_wording_approved_count": 0,
+  "owner_wording_approval_scope": {
+    "ids": [
+      "CP01",
+      "CP02",
+      "CP03"
+    ],
+    "source_id": "Sentinel_2d1d164091a081919d7b906dde6a0692",
+    "date": "2026-10-22",
+    "not_design_or_all_records": true,
+    "ingestion_activated": false,
+    "deployment_authorized": false,
+    "status": "SUPERSEDED_LANGUAGE_REJECTED",
+    "active_approved_ids": [],
+    "superseded_by": "Sentinel_6bbcc168ea8c8191a5fe12f810d58ada",
+    "current_status_document": "docs/handoff-status-20261022.md"
+  },
+  "brand_positioning": {
+    "core": "AI & Automation",
+    "paths": [
+      "assist human teams",
+      "specialist agents for bounded repeatable tasks",
+      "connect tasks and information"
+    ],
+    "complementary_applications": [
+      "web",
+      "AI Reception",
+      "CRM",
+      "content"
+    ],
+    "invented_staff": false
+  },
+  "historical_owner_wording_approval_scope": {
+    "ids": [
+      "CP01",
+      "CP02",
+      "CP03"
+    ],
+    "source_id": "Sentinel_2d1d164091a081919d7b906dde6a0692",
+    "date": "2026-10-22",
+    "not_design_or_all_records": true,
+    "ingestion_activated": false,
+    "deployment_authorized": false
+  },
+  "historical_owner_wording_approved_count": 3,
+  "handoff": {
+    "mode": "documents_and_prompt_only",
+    "scope_source": "Sentinel_e46b94fe6bc88191a1cc626a2d164e6c",
+    "rejection_source": "Sentinel_6bbcc168ea8c8191a5fe12f810d58ada",
+    "prototype_status": "rejected_historical_not_approved_visual_base",
+    "business_facts_retained": true,
+    "fresh_wording_approved": false,
+    "design_approved": false,
+    "implementation_in_this_chat": false,
+    "vscode_implementation": "only after owner reviews proposal; hero plus one visual story then stop",
+    "ingestion_activated": false,
+    "deployment_authorized": false
+  }
+}
