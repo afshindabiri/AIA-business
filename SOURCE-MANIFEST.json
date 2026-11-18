@@ -1,0 +1,584 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-16T08:27:28.959535+00:00",
+  "intended_repo": "afshindabiri/AIA-business",
+  "visibility_required": "private",
+  "source_repository": "afshindabiri/Dots",
+  "source_commit": "76ce5aaec9b0845015b309145b3a566e9a3397f9",
+  "files": [
+    {
+      "path": "CLAUDE.md",
+      "bytes": 7831,
+      "sha256": "66f07377327ab16acdd7efde89a23294a3b6d887a43b002515ca01f571a33633",
+      "git_blob_sha": "9d590886f9be08c31116bd695c5cf03dfa105bf9",
+      "source": {
+        "kind": "migration-guide",
+        "status": "guide_not_source"
+      }
+    },
+    {
+      "path": "README.md",
+      "bytes": 2348,
+      "sha256": "efd877917ec76f60b7c99b34e92bc4a469226b02c65a35e28dc20257880e18b0",
+      "git_blob_sha": "79f1668a63ec63e4c83506079fa9a2cb2e50f89a",
+      "source": {
+        "kind": "migration-guide",
+        "status": "guide_not_source"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/ai-team-sources-2026-11-05.md",
+      "bytes": 4107,
+      "sha256": "a6fd6e316cea2550fb6ab9a15ba5813c025a0ad8871f456cfeeacc9de10957f0",
+      "git_blob_sha": "8413e7ebb47099a61f91914085561010ea1d3c31",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/ai-team-sources-2026-11-05.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/algorithmic-approach-sources-2026-11-06.md",
+      "bytes": 10252,
+      "sha256": "f084ee71c84fd917840e4904eb380ae6f7c7728c459dbb771dfbda91f50e6cea",
+      "git_blob_sha": "50348d366ab3477bcc9b1904ee261cacb44fec7c",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/algorithmic-approach-sources-2026-11-06.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/approved-ai-team-questionnaire-2026-11-11.md",
+      "bytes": 8725,
+      "sha256": "b32c55c86edf2065aad253bc152bc66868b39846bec4c720a0363c3788d5da24",
+      "git_blob_sha": "7f73a857acbeeffd9314af6df9a39849a57a7d2d",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/approved-ai-team-questionnaire-2026-11-11.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/approved-process-questionnaire-2026-11-13.md",
+      "bytes": 7327,
+      "sha256": "2d2b8f8c49e53f82869e094b31b6c9c05b82ac6bb1a5c71bded97033d5677857",
+      "git_blob_sha": "baa0471f44c700c82947866fdf7642836ee33643",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/approved-process-questionnaire-2026-11-13.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/approved-questionnaire-client-portal-decisions-2026-11-07.md",
+      "bytes": 11878,
+      "sha256": "131ea2ba4bab95aba49ae6895dbe1d94851c18aea17e90cf71d83910e2ad01db",
+      "git_blob_sha": "04d94ac23e8be0701f99f6c852f0ad8200322b32",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/approved-questionnaire-client-portal-decisions-2026-11-07.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/approved-web-service-questionnaire-2026-11-12.md",
+      "bytes": 7351,
+      "sha256": "e72c0d29fbe5ab3ed28f49548c60f71333bb3033cc050b131cabf8df9e92700d",
+      "git_blob_sha": "1188669353cd858fd58d2255f6b0947cf0acce11",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/approved-web-service-questionnaire-2026-11-12.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/content-service-sources-2026-11-06.md",
+      "bytes": 2308,
+      "sha256": "788089fb69b4d49eaf30adb8e950641a3a80c18d0487a05ab3f311f20d92dcb7",
+      "git_blob_sha": "aa3a03ce44cf8b431cd5c475187be16f360ed4c7",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/content-service-sources-2026-11-06.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/current.md",
+      "bytes": 26196,
+      "sha256": "15e12b4dc094591f30b8b1d32cd0afbd0fc3431b0e2c59fc28a7ee64e9194ef8",
+      "git_blob_sha": "f0563c678e8c7aa6da7da512fa0ee00d3a83c892",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/current.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/draft-content-questionnaire-2026-11-14.md",
+      "bytes": 4894,
+      "sha256": "a92dbe417d617cdd513b7f62d336c05c4ddc41e9dc5ed006f2f08ee16efcd3d0",
+      "git_blob_sha": "37d5f88bbf3a20ca5dee79e300feb8cf78fc21ee",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/draft-content-questionnaire-2026-11-14.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/draft-knowledge-questionnaire-2026-11-14.md",
+      "bytes": 5293,
+      "sha256": "229d9d809d665c455c32e47c48ffd2372dcfbf40c7fff23d141d0c8b300f2b3c",
+      "git_blob_sha": "91b3e84a24a2ef2f9f562f0308f520d2f543cea5",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/draft-knowledge-questionnaire-2026-11-14.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/draft-reception-questionnaire-2026-11-14.md",
+      "bytes": 4885,
+      "sha256": "332dbc7abc44750759b349214ca0faebdce581f1d3af1e5eac962d73f54cc936",
+      "git_blob_sha": "40da0594ef3b08621b39e75e4f5eac29ad1375a1",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/draft-reception-questionnaire-2026-11-14.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/draft-sales-questionnaire-2026-11-14.md",
+      "bytes": 5870,
+      "sha256": "df7c2b7d0952c334ce305826af8931936efb042a9238f80f77a6ca49eb03e1b2",
+      "git_blob_sha": "4d18d566032ac65ff1777bbbc5de046e068773f6",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/draft-sales-questionnaire-2026-11-14.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/draft-support-questionnaire-2026-11-14.md",
+      "bytes": 3999,
+      "sha256": "91ca6da8a920bd10b30e4c7f98a9786cf499fec42d225b93f07779a6193c33fb",
+      "git_blob_sha": "09ba5fbcfd13349de62c33073a3e0f0b5c84dfaf",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/draft-support-questionnaire-2026-11-14.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/knowledge-service-sources-2026-11-06.md",
+      "bytes": 4925,
+      "sha256": "ecec5eb92dece98ac6313ed79caeab81a32b69bee3996e24e50c581ef46b8e68",
+      "git_blob_sha": "eeeebcf19527e3a87a1ee809904785cad47cffae",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/knowledge-service-sources-2026-11-06.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/questionnaire-ai-team-decisions-2026-11-10.md",
+      "bytes": 3616,
+      "sha256": "e9ef21aa473bc4ee5095d025e7a2234803efb4ab4dcb96f46f7ee1dc4ee15ffc",
+      "git_blob_sha": "7e58c78490074428c95ace6cf8d6e288614dce4e",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/questionnaire-ai-team-decisions-2026-11-10.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/questionnaire-amendment-sources-2026-11-14.md",
+      "bytes": 8233,
+      "sha256": "bc03724a5197364cd5f0a45719a903943d229c2068a2e1a77958c88c1fd2b008",
+      "git_blob_sha": "d47bfd4b208c3cdece611c65f7a64aff904feee6",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/questionnaire-amendment-sources-2026-11-14.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/questionnaire-checkpoint-2026-11-14.md",
+      "bytes": 8846,
+      "sha256": "2a8a046771e173deb256bd9a14d0aac9f543c2a69e74ce357217ef5925bf5fd1",
+      "git_blob_sha": "13541c88ef97d6a9162f04c6de7a1245e5db473f",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/questionnaire-checkpoint-2026-11-14.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/questionnaire-design-principles-2026-11-10.md",
+      "bytes": 6584,
+      "sha256": "8cd3fde8c93a30ce1a3ebb2ba46726f07f2976f0b2036372b05347ad18e4a096",
+      "git_blob_sha": "7766664486c84c368be48d8f6dbe71d1ed5392c7",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/questionnaire-design-principles-2026-11-10.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/questionnaire-reconciliation-2026-11-11.md",
+      "bytes": 13852,
+      "sha256": "18327a092f8cdddfa153b9e389643c0aa91c600ee7b30f1b4acf6bbddd0238b7",
+      "git_blob_sha": "3564c4b91b855e2b26ee1be339348aa197d2be38",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/questionnaire-reconciliation-2026-11-11.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/questionnaire-sources-2026-11-06.md",
+      "bytes": 17564,
+      "sha256": "9b52941d988c3e683fa399f37dbdcd68ef8af930447a6f2d9ebc435d6021651f",
+      "git_blob_sha": "6a76f036488731a96ed4b9e907596649c8e7edcf",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/questionnaire-sources-2026-11-06.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/service-decisions-sources-2026-11-05.md",
+      "bytes": 9846,
+      "sha256": "cf20cf5e221a8d37d0209322e501e7151fe1b5acdd6be5e251d07454a1dd5b13",
+      "git_blob_sha": "979cc02493d154e3132d02316de517ea6edf2af8",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/service-decisions-sources-2026-11-05.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/telephone-prerequisites-sources-2026-11-05.md",
+      "bytes": 1420,
+      "sha256": "0e534ab81f236925c558ea57e92104996c0c5a41028f1004647e81a55d03e4c6",
+      "git_blob_sha": "bc40f01fa5b837a4310d05ef61b376e7ea52c138",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/telephone-prerequisites-sources-2026-11-05.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-business/web-service-sources-2026-11-06.md",
+      "bytes": 5884,
+      "sha256": "afca1e676d5ef4b3f22d54e6a9e3ecc19aea7f8f6363341aaf7c37edab7cf73a",
+      "git_blob_sha": "b1104a4eb13a3dcbc50418bd39404aceb3c9eeb8",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-business/web-service-sources-2026-11-06.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-website/CLAUDE-CODE-HANDOFF-2026-11-16.md",
+      "bytes": 15250,
+      "sha256": "21c9acbf62435db6c69ccf53b2b6e46fd3ceec867248c5e69036abe03a263e9f",
+      "git_blob_sha": "67626c14a6e9b7b3dfff2fc9db4883821df4e67a",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-website/CLAUDE-CODE-HANDOFF-2026-11-16.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-dots/topics/aia-website/current.md",
+      "bytes": 6958,
+      "sha256": "bf9bbb92a5b4f81b8c43e48b9a7bee330827783f05bd1f48a95b694e53390ead",
+      "git_blob_sha": "bb7176d51ae5b134f6eebfbad69b4d492a50d04c",
+      "source": {
+        "kind": "original-dots",
+        "status": "byte_identical",
+        "source_path": "topics/aia-website/current.md",
+        "ref": "76ce5aaec9b0845015b309145b3a566e9a3397f9"
+      }
+    },
+    {
+      "path": "archive/source-website-2026-10-22/service-capability-matrix.md",
+      "bytes": 8192,
+      "sha256": "f6b6ecbc1f09ad232b91a192cd29d927890c0c83ae422d37e0987adf0119aa57",
+      "git_blob_sha": "a2355d6e5495a5b1ce9c513af18538eaa0fb1cf7",
+      "source": {
+        "kind": "original-local-website-doc",
+        "status": "exact_historical_only",
+        "source_path": "docs/service-capability-matrix.md",
+        "usage_warning": "October five-group matrix and approval references were superseded for public copy; November handoff and later decisions take priority."
+      }
+    },
+    {
+      "path": "assets/AiA-website-map-fa.png",
+      "bytes": 132983,
+      "sha256": "704418f585b28ed59e9b5c73a8ae759bc5db46a2fc42d669834ba00cd82e5182",
+      "git_blob_sha": "342c405d29967f1056ac1ed866604c5e771df96d",
+      "source": {
+        "kind": "original-sitemap-image",
+        "status": "byte_identical_to_local_delivered_artifact"
+      }
+    },
+    {
+      "path": "guides/BUSINESS-AT-A-GLANCE.fa.md",
+      "bytes": 5095,
+      "sha256": "dee393579f239a4a0c2986cef59643dacbe1762f989ffbae988b6ceeb1b67f28",
+      "git_blob_sha": "44e83c5e54bdd56508a300ebe4378e1d503e2b93",
+      "source": {
+        "kind": "migration-guide",
+        "status": "guide_not_source"
+      }
+    },
+    {
+      "path": "guides/EXPERIENCE-AND-COVERAGE.fa.md",
+      "bytes": 4479,
+      "sha256": "c4d027172b30edb199ffb4c8c9e7ce42de2348db134e61406c95a64a1cae4632",
+      "git_blob_sha": "d9dad2de39b9492bdb77ff3074c81c98a44d2fdd",
+      "source": {
+        "kind": "migration-guide",
+        "status": "source-linked_summary",
+        "source_repository": "afshindabiri/Dots",
+        "source_commit": "4bdc323d31ec87f1ce7d898c51b2c889dbab5347",
+        "source_path": "topics/aia-business/resume-capabilities-2026-11-02.md",
+        "source_blob_sha": "fb582210b029b86314a45c4ca0243a85989071af",
+        "additional_basis": "Owner-confirmed AiA sales evidence and website domain decisions."
+      }
+    },
+    {
+      "path": "guides/HISTORICAL-WEBSITE-SOURCES.fa.md",
+      "bytes": 2395,
+      "sha256": "4301bb9776f895f5cc64324394d0a899d49d3b0a93a0324b6e9e96f339128ab3",
+      "git_blob_sha": "3f46e5f84ca88763ea4523dddf226d0f9e1f296e",
+      "source": {
+        "kind": "migration-guide",
+        "status": "guide_not_source"
+      }
+    },
+    {
+      "path": "guides/editorial-decisions-extract.md",
+      "bytes": 5254,
+      "sha256": "788eeeafa7783d06ee06b1db77bad463316f87ab41af223a19bbb5d2b771ae02",
+      "git_blob_sha": "aae383eca435c417c141a1ea5b26687593d28a62",
+      "source": {
+        "kind": "curated-editorial-or-linked-project-reference",
+        "status": "guide_not_source"
+      }
+    },
+    {
+      "path": "guides/editorial-owner-source-excerpts.md",
+      "bytes": 6972,
+      "sha256": "2b771326b069813520e24d435f414a33e8e762f11dd97e03ec0bcd9c03cb9665",
+      "git_blob_sha": "8221163317bbecc1bd71e3bdac03a3900f71f9be",
+      "source": {
+        "kind": "curated-editorial-or-linked-project-reference",
+        "status": "guide_not_source"
+      }
+    },
+    {
+      "path": "guides/linked-projects-and-boundaries.md",
+      "bytes": 5083,
+      "sha256": "cf490a5f0c63eee4b69d17a95c5a1c4d32c00bcf4e2c0c0124d42a0dba591519",
+      "git_blob_sha": "a2c8825eac73468c12f158b5c7b62ddcdab5a461",
+      "source": {
+        "kind": "curated-editorial-or-linked-project-reference",
+        "status": "guide_not_source"
+      }
+    }
+  ],
+  "linked_not_copied": [
+    {
+      "scope": "Standalone application code/checkout (website, AiReception, AiA-WACRM)",
+      "reason": "Separate implementation projects, not a business-knowledge mirror; do not infer production readiness."
+    },
+    {
+      "scope": "Operational editorial and generic repository research archives",
+      "reason": "Separate systems; directly useful editorial decisions are included as selected excerpts, not a duplicate of all automation runs."
+    },
+    {
+      "scope": "Older local designs and attachments referenced by Dots",
+      "reason": "Not all originals sourced and suitable for transfer; older rejected copy/design is not current."
+    },
+    {
+      "scope": "Brand asset choice, production contact details and primary domain decision",
+      "reason": "No final verified approved package was assumed; these are open/linked unless explicitly noted."
+    }
+  ],
+  "source_manifest_notes": [
+    {
+      "path": "conversations/migrated/aia-business.md",
+      "status": "link_only",
+      "reason": "Mixed historical conversation and execution context; exact original withheld rather than redacted. Relevant selected owner-source documents included separately.",
+      "source_repository": "afshindabiri/Dots",
+      "source_commit": "76ce5aaec9b0845015b309145b3a566e9a3397f9",
+      "source_blob_sha": "9e7f73b0b450cf71644ab849711b01048a8fde23",
+      "sha256": "5055995f81ad7e1fd4edb26f4e3b5366a024c4ed0dcbeb607b9ef2904a84fcad",
+      "bytes": 219342,
+      "source_url": "https://github.com/afshindabiri/Dots/blob/76ce5aaec9b0845015b309145b3a566e9a3397f9/conversations/migrated/aia-business.md"
+    },
+    {
+      "path": "conversations/migrated/aia-website.md",
+      "status": "link_only",
+      "reason": "Mixed historical conversation and execution context; exact original withheld rather than redacted. Relevant selected owner-source documents included separately.",
+      "source_repository": "afshindabiri/Dots",
+      "source_commit": "76ce5aaec9b0845015b309145b3a566e9a3397f9",
+      "source_blob_sha": "c9e14e73af89d868e146bbcabe02e815a9fca25d",
+      "sha256": "9798bb21a895379df751f686298b3cc6960d38a3bc42cb9d53e85ac27b342dab",
+      "bytes": 226246,
+      "source_url": "https://github.com/afshindabiri/Dots/blob/76ce5aaec9b0845015b309145b3a566e9a3397f9/conversations/migrated/aia-website.md"
+    },
+    {
+      "path": "topics/aia-business/coverage.json",
+      "status": "link_only",
+      "reason": "Mixed historical execution/retrieval records and operational context; source-only reference, not copied into clean business bundle.",
+      "source_repository": "afshindabiri/Dots",
+      "source_commit": "76ce5aaec9b0845015b309145b3a566e9a3397f9",
+      "source_blob_sha": "c699246b8b1dd207f8dd921728cd13d88e96ad80",
+      "sha256": "616af889d7e746305ea593aed16a7dd19fcc7411a5bf8987ad877d277966d705",
+      "bytes": 3688,
+      "source_url": "https://github.com/afshindabiri/Dots/blob/76ce5aaec9b0845015b309145b3a566e9a3397f9/topics/aia-business/coverage.json"
+    },
+    {
+      "path": "topics/aia-business/details.md",
+      "status": "link_only",
+      "reason": "Mixed historical execution/retrieval records and operational context; source-only reference, not copied into clean business bundle.",
+      "source_repository": "afshindabiri/Dots",
+      "source_commit": "76ce5aaec9b0845015b309145b3a566e9a3397f9",
+      "source_blob_sha": "59f4e69a01b718daa700288af6164791e857088f",
+      "sha256": "63956f5401b8e37c599a0679ad3cfde83ef4894b2f87ac4ad23aaef6cd597236",
+      "bytes": 136264,
+      "source_url": "https://github.com/afshindabiri/Dots/blob/76ce5aaec9b0845015b309145b3a566e9a3397f9/topics/aia-business/details.md"
+    },
+    {
+      "path": "topics/aia-business/lookup.json",
+      "status": "link_only",
+      "reason": "Mixed historical execution/retrieval records and operational context; source-only reference, not copied into clean business bundle.",
+      "source_repository": "afshindabiri/Dots",
+      "source_commit": "76ce5aaec9b0845015b309145b3a566e9a3397f9",
+      "source_blob_sha": "d6d13e6950f05f93ced5b094d0e03a9e2e06f108",
+      "sha256": "3854f926d4e49653370be54aad4cb7a85533ba028ddeff016be601a4c2d6a17e",
+      "bytes": 286733,
+      "source_url": "https://github.com/afshindabiri/Dots/blob/76ce5aaec9b0845015b309145b3a566e9a3397f9/topics/aia-business/lookup.json"
+    },
+    {
+      "path": "topics/aia-business/records.json",
+      "status": "link_only",
+      "reason": "Mixed historical execution/retrieval records and operational context; source-only reference, not copied into clean business bundle.",
+      "source_repository": "afshindabiri/Dots",
+      "source_commit": "76ce5aaec9b0845015b309145b3a566e9a3397f9",
+      "source_blob_sha": "c3ae060e11f2278e2037e26ec44592246b9064fc",
+      "sha256": "960a75e7aabd20e4560e0b1eb35b2051e71ce0aa2285efc66cda4f8e6ad63c27",
+      "bytes": 292245,
+      "source_url": "https://github.com/afshindabiri/Dots/blob/76ce5aaec9b0845015b309145b3a566e9a3397f9/topics/aia-business/records.json"
+    },
+    {
+      "path": "topics/aia-business/resume-capabilities-2026-11-02.md",
+      "status": "link_only",
+      "reason": "Contains personal portfolio/resume context, contact or private editable document reference; exact original withheld pending scope review.",
+      "source_repository": "afshindabiri/Dots",
+      "source_commit": "76ce5aaec9b0845015b309145b3a566e9a3397f9",
+      "source_blob_sha": "fb582210b029b86314a45c4ca0243a85989071af",
+      "sha256": "d2d574b06375d7542299cd21b69152d69055481d40db574e416fde878e005463",
+      "bytes": 9148,
+      "source_url": "https://github.com/afshindabiri/Dots/blob/76ce5aaec9b0845015b309145b3a566e9a3397f9/topics/aia-business/resume-capabilities-2026-11-02.md"
+    },
+    {
+      "path": "topics/aia-business/resume-sources-2026-11-02.md",
+      "status": "link_only",
+      "reason": "Contains personal portfolio/resume context, contact or private editable document reference; exact original withheld pending scope review.",
+      "source_repository": "afshindabiri/Dots",
+      "source_commit": "76ce5aaec9b0845015b309145b3a566e9a3397f9",
+      "source_blob_sha": "39da90c455c275012ed7f73b41e0745c66e47a9d",
+      "sha256": "853f14374c06a7cbcf5038e510951d63ae56b9eb5b3699d16eefcd4e2c6187d3",
+      "bytes": 7590,
+      "source_url": "https://github.com/afshindabiri/Dots/blob/76ce5aaec9b0845015b309145b3a566e9a3397f9/topics/aia-business/resume-sources-2026-11-02.md"
+    },
+    {
+      "path": "topics/aia-website/coverage.json",
+      "status": "link_only",
+      "reason": "Mixed historical execution/retrieval records and operational context; source-only reference, not copied into clean business bundle.",
+      "source_repository": "afshindabiri/Dots",
+      "source_commit": "76ce5aaec9b0845015b309145b3a566e9a3397f9",
+      "source_blob_sha": "cc65ca32e61bd0728fc8101523a5fa45671ea657",
+      "sha256": "ca6c20a77efb5388937c9d6c27cb7b752563f7f88b7e88346de629291a5b3691",
+      "bytes": 4116,
+      "source_url": "https://github.com/afshindabiri/Dots/blob/76ce5aaec9b0845015b309145b3a566e9a3397f9/topics/aia-website/coverage.json"
+    },
+    {
+      "path": "topics/aia-website/details.md",
+      "status": "link_only",
+      "reason": "Mixed historical execution/retrieval records and operational context; source-only reference, not copied into clean business bundle.",
+      "source_repository": "afshindabiri/Dots",
+      "source_commit": "76ce5aaec9b0845015b309145b3a566e9a3397f9",
+      "source_blob_sha": "5f1e8bb9a27e0e5f742096625a1a34ac30a55e3a",
+      "sha256": "a74e8106c64fd9670aa66a56e27a7cad49f100a228647d522c21c7e7cb2162cf",
+      "bytes": 82844,
+      "source_url": "https://github.com/afshindabiri/Dots/blob/76ce5aaec9b0845015b309145b3a566e9a3397f9/topics/aia-website/details.md"
+    },
+    {
+      "path": "topics/aia-website/lookup.json",
+      "status": "link_only",
+      "reason": "Mixed historical execution/retrieval records and operational context; source-only reference, not copied into clean business bundle.",
+      "source_repository": "afshindabiri/Dots",
+      "source_commit": "76ce5aaec9b0845015b309145b3a566e9a3397f9",
+      "source_blob_sha": "b347058b94f3574213380216a3361e5c6a7e3354",
+      "sha256": "ca7ca6c74b94814d4be6abf8724bab688fa726f7864b4d0e11bb9c684d7a2481",
+      "bytes": 208017,
+      "source_url": "https://github.com/afshindabiri/Dots/blob/76ce5aaec9b0845015b309145b3a566e9a3397f9/topics/aia-website/lookup.json"
+    },
+    {
+      "path": "topics/aia-website/records.json",
+      "status": "link_only",
+      "reason": "Mixed historical execution/retrieval records and operational context; source-only reference, not copied into clean business bundle.",
+      "source_repository": "afshindabiri/Dots",
+      "source_commit": "76ce5aaec9b0845015b309145b3a566e9a3397f9",
+      "source_blob_sha": "4ed55273076c0a174a6d7cad64af7fa6195fe4ef",
+      "sha256": "0c5cfcc2f404211ce0d0af1ecad3ce0a0b969bcd73a24902f211e0e9720a20d9",
+      "bytes": 142588,
+      "source_url": "https://github.com/afshindabiri/Dots/blob/76ce5aaec9b0845015b309145b3a566e9a3397f9/topics/aia-website/records.json"
+    }
+  ],
+  "note": "This export contains documentation only. No source files on Dots or on the local website checkout were modified. Archive cross-references to nonexported project or local assets are evidence locators, not a claim those originals are present.",
+  "authored_revision": {
+    "revised_at": "2026-11-17T13:05:56.542174+00:00",
+    "status": "private_local_staging_not_published",
+    "changed_content_paths": [
+      "CLAUDE.md"
+    ],
+    "reason": "Reconcile first Persian visual-preview scope, response/handoff modes, customer confirmation versus AiA reference acceptance, and later owner discretion/discoverability/domain/contextual-link clarifications.",
+    "historical_source_policy": "All captured historical files retained byte-for-byte.",
+    "checksum_convention": "files covers every archive member except SOURCE-MANIFEST.json itself; manifest and ZIP checksums live in separate staging verification report to avoid recursive self-hashes."
+  },
+  "coverage_addendum": {
+    "date": "2026-11-18",
+    "note": "Adds source-linked experience guide; no historical archive members changed. Initial staging status belongs to historical revision."
+  }
+}

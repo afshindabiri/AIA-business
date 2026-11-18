@@ -1,2 +1,19 @@
-# AIA-business
-Private AiA business documentation and website planning
+# AiA Business
+
+مرجع خصوصی و مستقل مستندات کسب‌وکار و طراحی وب‌سایت AiA. این مخزن کد وب‌سایت یا محصول نیست و تغییرات آن چیزی را منتشر یا مستقر نمی‌کند.
+
+## از کجا شروع کنیم؟
+
+- [راهنمای Claude Code](CLAUDE.md): ترتیب خواندن، محدودهٔ کار و قدم اول
+- [نقشه و تحویل طراحی وب‌سایت](archive/source-dots/topics/aia-website/CLAUDE-CODE-HANDOFF-2026-11-16.md): ساختار سایت، هفت حوزهٔ خدمت، مسیر ثبت درخواست و پنل
+- [وضعیت بیزینس و خدمات](archive/source-dots/topics/aia-business/current.md): تعریف کسب‌وکار و تصمیم‌های ثبت‌شده
+- [پرسشنامه‌ها و وضعیت تأیید](archive/source-dots/topics/aia-business/questionnaire-checkpoint-2026-11-14.md): موارد تأییدشده جدا از پیش‌نویس‌ها
+- [سابقهٔ اجرایی و کاربرد آن برای AiA](guides/EXPERIENCE-AND-COVERAGE.fa.md): تجربهٔ مرتبط، مرز ادعا و پیوند منابع اصلی
+- [AiA در یک نگاه](guides/BUSINESS-AT-A-GLANCE.fa.md): جمع‌بندی خدمات و مسیر همکاری
+- [نمودار وب‌سایت](assets/AiA-website-map-fa.png) و [موجودی منابع تاریخی](guides/HISTORICAL-WEBSITE-SOURCES.fa.md)
+- [سیاست تحریریه](guides/editorial-decisions-extract.md) و [پروژه‌های مرتبط](guides/linked-projects-and-boundaries.md)
+- [فهرست منبع و انتقال](SOURCE-MANIFEST.json): مسیر و هش اصل‌ها، موارد ارجاعی و محدودیت پوشش
+
+## شیوهٔ استفاده
+
+فایل‌های آرشیوی شاهد تصمیم‌ها و طراحی‌اند، نه مجوز برای تغییر سیستم زنده. در صورت تعارض، آخرین تصمیم صریح مالک مقدم است. پیش‌نویس‌ها، گزارش‌های اجرا، نمونه‌های فرضی و تصمیم‌های تأییدشده را یکی نگیرید. پروژه‌های اجرایی مستقل در مخازن خودشان باقی می‌مانند؛ اینجا فقط زمینه و ارجاعی که برای AiA لازم است نگه داشته می‌شود.
