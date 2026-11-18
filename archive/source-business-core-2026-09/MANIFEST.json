@@ -1,0 +1,596 @@
+{
+  "schema_version": 1,
+  "prepared_at": "2026-11-18T16:37:21.026008+00:00",
+  "purpose": "historical_reference_not_current_policy",
+  "original_source": "Owner Obsidian AiA business documentation; reviewed non-client archive prepared 2026-11-16",
+  "archive_is_current_authority": false,
+  "new_business_decisions_made": false,
+  "counts": {
+    "included_originals": 47,
+    "business_documents": 42,
+    "unfilled_templates": 5,
+    "original_bytes": 91317,
+    "excluded_client_branch_files": 9
+  },
+  "privacy_review": {
+    "prior_full_text_review": "2026-11-16",
+    "current_original_hash_match": true,
+    "current_pattern_scan": "no credential/email/absolute-path candidate in47 originals; bounded check, not exhaustive security audit"
+  },
+  "files": [
+    {
+      "source_relative_path": "00-Home/CURRENT-STATE.md",
+      "package_relative_path": "originals/00-Home/CURRENT-STATE.md",
+      "bytes": 1565,
+      "sha256": "0e47963ea3fcc276e94efdf4bec887d31fdcf04041c081ccf325b35ea266e76b",
+      "source_mtime_ns": "1789323318953037199",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "state-map",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "00-Home/GLOSSARY.md",
+      "package_relative_path": "originals/00-Home/GLOSSARY.md",
+      "bytes": 1539,
+      "sha256": "a2dc8a2c0af1c60839817c196d4129589c65a4aa6bd40dc8d2d2fa4ac922a96a",
+      "source_mtime_ns": "1789398145928819035",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "glossary",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "00-Home/HOME.md",
+      "package_relative_path": "originals/00-Home/HOME.md",
+      "bytes": 1238,
+      "sha256": "86d86097d9bc36723478a7749dafd2e999fd67ac7801a63dfe690608f3c82d37",
+      "source_mtime_ns": "1789320531231040746",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "home",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "00-Home/KNOWLEDGE-GOVERNANCE.md",
+      "package_relative_path": "originals/00-Home/KNOWLEDGE-GOVERNANCE.md",
+      "bytes": 10601,
+      "sha256": "db9bcfbe3715ae10734b36862b14847cd8e1acd17a92a22892d10ed13b89a0e8",
+      "source_mtime_ns": "1789398174896602012",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "governance",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "10-Core/Business-Definition.md",
+      "package_relative_path": "originals/10-Core/Business-Definition.md",
+      "bytes": 1787,
+      "sha256": "ae3b3b533dc4c87d6a45cdbe9fd24dc85d641c613c2e660dc5767b242b1951dc",
+      "source_mtime_ns": "1789384840551393369",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "core",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "10-Core/Customer-Lifecycle.md",
+      "package_relative_path": "originals/10-Core/Customer-Lifecycle.md",
+      "bytes": 3312,
+      "sha256": "960459103cce8198c79853dff05f8560b700e6b2115d22db7b1f0679a1d56f44",
+      "source_mtime_ns": "1789398145984671460",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "core",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "10-Core/Market-and-ICP.md",
+      "package_relative_path": "originals/10-Core/Market-and-ICP.md",
+      "bytes": 2472,
+      "sha256": "ca1244a67625c187d1298e5630ac02344f0b7c1cf08aa4a3f4c79c6fe241f3ba",
+      "source_mtime_ns": "1789409742654743927",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "core",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "10-Core/Operating-Principles.md",
+      "package_relative_path": "originals/10-Core/Operating-Principles.md",
+      "bytes": 4837,
+      "sha256": "2cb72ae0a9a5dbdab029ea8ba8f39e0981ec558b9d3d4d493e88d3c9e7cb8d85",
+      "source_mtime_ns": "1789386287648955506",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "core",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "10-Core/Positioning.md",
+      "package_relative_path": "originals/10-Core/Positioning.md",
+      "bytes": 762,
+      "sha256": "d4dad50e7c1fe390fdfcf1f35a0cd5eacd6c80af78b5296057eece3f2192bf7e",
+      "source_mtime_ns": "1789323973689611304",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "core",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "20-Offers/Focused-Audit-Offer.md",
+      "package_relative_path": "originals/20-Offers/Focused-Audit-Offer.md",
+      "bytes": 740,
+      "sha256": "133d32ed40488706971fb0afdb50cb14c612ed5d45f28f394a52afaf314984e2",
+      "source_mtime_ns": "1789323973976663715",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "offer",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "20-Offers/Implementation-Offer.md",
+      "package_relative_path": "originals/20-Offers/Implementation-Offer.md",
+      "bytes": 1101,
+      "sha256": "65242ee6448d8b8aa89ac8449c3c58d5d39712929e8d876825b17118bbedac19",
+      "source_mtime_ns": "1789324103180521074",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "offer",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "20-Offers/Offer-Architecture.md",
+      "package_relative_path": "originals/20-Offers/Offer-Architecture.md",
+      "bytes": 978,
+      "sha256": "934800ae2edc1c5ab5d48ed83c0e7d64e5eb4f8f6cf776dfd1566b8da0a1caa9",
+      "source_mtime_ns": "1789323973920824802",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "offer",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "20-Offers/Post-Implementation-Offers.md",
+      "package_relative_path": "originals/20-Offers/Post-Implementation-Offers.md",
+      "bytes": 625,
+      "sha256": "a77f8d8da854600eacf82b90a9ca7b69b1ef4fce162e67c3be2f186d67266000",
+      "source_mtime_ns": "1789323974085589191",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "offer",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "20-Offers/Pricing-Policy.md",
+      "package_relative_path": "originals/20-Offers/Pricing-Policy.md",
+      "bytes": 1705,
+      "sha256": "ef2255efd2a8a20bec3d1bb1b94223e6880fad758949a5fe7b9b95a394e2c024",
+      "source_mtime_ns": "1789324103124425242",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "policy",
+        "status": "canonical",
+        "policy_version": "1",
+        "effective_from": "2026-09-13"
+      }
+    },
+    {
+      "source_relative_path": "30-Operations/Acceptance-and-Handover.md",
+      "package_relative_path": "originals/30-Operations/Acceptance-and-Handover.md",
+      "bytes": 1032,
+      "sha256": "6eb5aa7be43137cabbbdf8f594aee05b2abda6f0d4ae88874d80db516cf9dfde",
+      "source_mtime_ns": "1789324001244621551",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "process",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "30-Operations/Assessment.md",
+      "package_relative_path": "originals/30-Operations/Assessment.md",
+      "bytes": 10827,
+      "sha256": "f298b2ab5dd04e531c74b881cfc33447a3b66d55bba0156b52823677091f0832",
+      "source_mtime_ns": "1789912425717119924",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "process",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "30-Operations/Consultation-Intake.md",
+      "package_relative_path": "originals/30-Operations/Consultation-Intake.md",
+      "bytes": 3823,
+      "sha256": "739bce24709be1a926f6cbc9003adbdc335b1d1747df378e7f9188e558767ef0",
+      "source_mtime_ns": "1789912353532108431",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "process",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "30-Operations/Discovery.md",
+      "package_relative_path": "originals/30-Operations/Discovery.md",
+      "bytes": 1106,
+      "sha256": "ecbb8175126fc0815b67c7c46b377263ede394638980f35a05ecb051de4f8a04",
+      "source_mtime_ns": "1789912414747026677",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "process",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "30-Operations/Implementation-Delivery.md",
+      "package_relative_path": "originals/30-Operations/Implementation-Delivery.md",
+      "bytes": 1196,
+      "sha256": "f578c3190afa19262158727b8e0b7ced7f198892bd887c5ebcbb78e7022a7e16",
+      "source_mtime_ns": "1789324001189994896",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "process",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "30-Operations/Paid-Audit.md",
+      "package_relative_path": "originals/30-Operations/Paid-Audit.md",
+      "bytes": 970,
+      "sha256": "ffbbb52ad4670c7e4ad7b3b5197e133ec52fd57ba75e4d90b6f11926a8c2ae5a",
+      "source_mtime_ns": "1789324001075163214",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "process",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "30-Operations/Pilot.md",
+      "package_relative_path": "originals/30-Operations/Pilot.md",
+      "bytes": 613,
+      "sha256": "0eacfc8b531d251b1d1cd9bdc50246290fff7877b7a8ca1983dcb3346b21c711",
+      "source_mtime_ns": "1789320595578982078",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "process",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "30-Operations/Post-Implementation-Operations.md",
+      "package_relative_path": "originals/30-Operations/Post-Implementation-Operations.md",
+      "bytes": 1546,
+      "sha256": "78731af0dd9155cec0763ba13fc280726452a541a58f87d2c921bba8b5bddd31",
+      "source_mtime_ns": "1789398146045010827",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "process",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "30-Operations/Solution-Selection.md",
+      "package_relative_path": "originals/30-Operations/Solution-Selection.md",
+      "bytes": 610,
+      "sha256": "9714deb342a95580a4ebbc791265869aad11c80ce5f0d87e1b22a9cf2ae31c41",
+      "source_mtime_ns": "1789320595387419175",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "process",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "30-Operations/Tool-Selection.md",
+      "package_relative_path": "originals/30-Operations/Tool-Selection.md",
+      "bytes": 706,
+      "sha256": "bc2deaebbab56b448805efc39558ec55b3e3c4696069f6142900bbe5f9f378c8",
+      "source_mtime_ns": "1789324001134127441",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "process",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "40-GTM/Acquisition-Strategy.md",
+      "package_relative_path": "originals/40-GTM/Acquisition-Strategy.md",
+      "bytes": 848,
+      "sha256": "42320bef6ebd73b266b72a31211fd4cd3c27b45fa9cd4ef281d8d17ed4a5a1e2",
+      "source_mtime_ns": "1789324031605428650",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "gtm",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "40-GTM/Demo-Strategy.md",
+      "package_relative_path": "originals/40-GTM/Demo-Strategy.md",
+      "bytes": 833,
+      "sha256": "45212db973462d846bd2f41c2040c7527c6b8c51ddcf1e2ccfbb5ebca3282d28",
+      "source_mtime_ns": "1789324031935481348",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "gtm",
+        "status": "draft"
+      }
+    },
+    {
+      "source_relative_path": "40-GTM/Founder-Content.md",
+      "package_relative_path": "originals/40-GTM/Founder-Content.md",
+      "bytes": 724,
+      "sha256": "5471efc24a99d1454e8fe03dcc2603e6334ac0933e7f749ddb0a0bb8ebd09c00",
+      "source_mtime_ns": "1789324031715686968",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "gtm",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "40-GTM/Market-Wedge.md",
+      "package_relative_path": "originals/40-GTM/Market-Wedge.md",
+      "bytes": 756,
+      "sha256": "5801278918413f93a4332ba271cc0ea63ef2c91c353751dd39867cdeefc897eb",
+      "source_mtime_ns": "1789324031881188112",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "gtm-decision",
+        "status": "candidate"
+      }
+    },
+    {
+      "source_relative_path": "40-GTM/Outbound-Playbook.md",
+      "package_relative_path": "originals/40-GTM/Outbound-Playbook.md",
+      "bytes": 907,
+      "sha256": "c2367d9e28ed8afb56a5f19518af7e195271ab4854e7b4b922bcc2231379b069",
+      "source_mtime_ns": "1789324031990961301",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "gtm",
+        "status": "draft"
+      }
+    },
+    {
+      "source_relative_path": "40-GTM/Pipeline-Definition.md",
+      "package_relative_path": "originals/40-GTM/Pipeline-Definition.md",
+      "bytes": 1125,
+      "sha256": "d49dc166f4a47e7c688ec8dcd3eb0eb604b81c72c32ebaac547fee41da7a8991",
+      "source_mtime_ns": "1789324031826017827",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "gtm",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "40-GTM/Referral-and-Partners.md",
+      "package_relative_path": "originals/40-GTM/Referral-and-Partners.md",
+      "bytes": 651,
+      "sha256": "0e2b665f1887cd27c7d144782244f7869c317f1c98394b9de92a363658aff867",
+      "source_mtime_ns": "1789324031769810870",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "gtm",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "40-GTM/Sales-Funnel.md",
+      "package_relative_path": "originals/40-GTM/Sales-Funnel.md",
+      "bytes": 710,
+      "sha256": "a930254320a2cdd749a179641e6b84b919a5a4ad9f66681363d3eeb0c44655af",
+      "source_mtime_ns": "1789324031660664643",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "gtm",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "60-Assets/Templates/AUDIT-PHASE-TEMPLATE.md",
+      "package_relative_path": "originals/60-Assets/Templates/AUDIT-PHASE-TEMPLATE.md",
+      "bytes": 1334,
+      "sha256": "dfcacaa0b4a05705e0e67a49d8421e7269e145abb2e6391512296f41476ec9bf",
+      "source_mtime_ns": "1789323319130887341",
+      "archive_classification": "template_sample_not_real_client_record",
+      "source_declared_metadata": {
+        "type": "client-phase",
+        "status": "canonical",
+        "pricing_policy_version": "\"<version_at_transaction>\""
+      }
+    },
+    {
+      "source_relative_path": "60-Assets/Templates/CLIENT-TEMPLATE.md",
+      "package_relative_path": "originals/60-Assets/Templates/CLIENT-TEMPLATE.md",
+      "bytes": 902,
+      "sha256": "54dc5d3ebb78b1539c769dae1ee6a14f773f0d23d9fe0efa1aa218275da50c33",
+      "source_mtime_ns": "1789320833359524565",
+      "archive_classification": "template_sample_not_real_client_record",
+      "source_declared_metadata": {
+        "type": "client",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "60-Assets/Templates/CYCLE-TEMPLATE.md",
+      "package_relative_path": "originals/60-Assets/Templates/CYCLE-TEMPLATE.md",
+      "bytes": 1400,
+      "sha256": "39091ff3abf906e98c3cfe14a2ea264a82705d7c2f1f4906a327507b507b694d",
+      "source_mtime_ns": "1789398146216717878",
+      "archive_classification": "template_sample_not_real_client_record",
+      "source_declared_metadata": {
+        "type": "client-cycle",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "60-Assets/Templates/DISCOVERY-PHASE-TEMPLATE.md",
+      "package_relative_path": "originals/60-Assets/Templates/DISCOVERY-PHASE-TEMPLATE.md",
+      "bytes": 795,
+      "sha256": "c53c1767e85424c6497fd210224e9bf0f5fac65465849070e04f3e16037006ac",
+      "source_mtime_ns": "1789323319072533994",
+      "archive_classification": "template_sample_not_real_client_record",
+      "source_declared_metadata": {
+        "type": "client-phase",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "60-Assets/Templates/IMPLEMENTATION-PHASE-TEMPLATE.md",
+      "package_relative_path": "originals/60-Assets/Templates/IMPLEMENTATION-PHASE-TEMPLATE.md",
+      "bytes": 1591,
+      "sha256": "f24b16eaa0504a64ae87ce5d3ae08d2756a8c6d1e60ecd5ce00944826bfc7f69",
+      "source_mtime_ns": "1789323319189659899",
+      "archive_classification": "template_sample_not_real_client_record",
+      "source_declared_metadata": {
+        "type": "client-phase",
+        "status": "canonical",
+        "offer_version": "\"<commercial_offer_version_if_applicable>\""
+      }
+    },
+    {
+      "source_relative_path": "70-Decisions/DECISION-LOG.md",
+      "package_relative_path": "originals/70-Decisions/DECISION-LOG.md",
+      "bytes": 1347,
+      "sha256": "de94f4d6632272ad543ffadcfbbff3b5a32f59c57b46d453b71f1d6721b09f2d",
+      "source_mtime_ns": "1789912395571937028",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "decision-index",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "70-Decisions/Records/DR-0001-Current-Policy-vs-Historical-Snapshots.md",
+      "package_relative_path": "originals/70-Decisions/Records/DR-0001-Current-Policy-vs-Historical-Snapshots.md",
+      "bytes": 1310,
+      "sha256": "fb8a630fd1912693017915321ac57acf7f3fbef7c265f7d745cc3aed02850252",
+      "source_mtime_ns": "1789320805739991299",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "decision",
+        "status": "canonical",
+        "decided_on": "2026-09-13"
+      }
+    },
+    {
+      "source_relative_path": "70-Decisions/Records/DR-0002-Freeze-AiA-Conceptual-Business-Architecture.md",
+      "package_relative_path": "originals/70-Decisions/Records/DR-0002-Freeze-AiA-Conceptual-Business-Architecture.md",
+      "bytes": 3693,
+      "sha256": "319bc86e8127f4d88ec2790cfdb8f85fa5696261128f958aff51e6d688c94c91",
+      "source_mtime_ns": "1789382454562421632",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "decision",
+        "status": "canonical",
+        "decided_on": "2026-09-14"
+      }
+    },
+    {
+      "source_relative_path": "70-Decisions/Records/DR-0003-AI-Recommends-Owner-Decides.md",
+      "package_relative_path": "originals/70-Decisions/Records/DR-0003-AI-Recommends-Owner-Decides.md",
+      "bytes": 2357,
+      "sha256": "a18e574621724b187e443fa84aa89b3fa0e17d18ace674b907b9b9221455814f",
+      "source_mtime_ns": "1789386287813801080",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "decision",
+        "status": "canonical",
+        "decided_on": "2026-09-14"
+      }
+    },
+    {
+      "source_relative_path": "70-Decisions/Records/DR-0004-Adopt-Customer-Project-Fit-Model.md",
+      "package_relative_path": "originals/70-Decisions/Records/DR-0004-Adopt-Customer-Project-Fit-Model.md",
+      "bytes": 2736,
+      "sha256": "1bcef0ded260ed266c4b49a0b4bbc5fad7e1e736ec5656031f69e9b9a5efe5ce",
+      "source_mtime_ns": "1789388423472350987",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "decision",
+        "status": "canonical",
+        "decided_on": "2026-09-14"
+      }
+    },
+    {
+      "source_relative_path": "70-Decisions/Records/DR-0005-Clarify-Project-Cycle-and-PARA-Navigation.md",
+      "package_relative_path": "originals/70-Decisions/Records/DR-0005-Clarify-Project-Cycle-and-PARA-Navigation.md",
+      "bytes": 3086,
+      "sha256": "f7beb101ca19d50de9d438a2d28982980f99e633a8d23b53168aa45802481d36",
+      "source_mtime_ns": "1789399120818355432",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "decision",
+        "status": "canonical",
+        "decided_on": "2026-09-14"
+      }
+    },
+    {
+      "source_relative_path": "70-Decisions/Records/DR-0006-Adopt-Consultation-Intake-and-Meeting-Flow-v1.md",
+      "package_relative_path": "originals/70-Decisions/Records/DR-0006-Adopt-Consultation-Intake-and-Meeting-Flow-v1.md",
+      "bytes": 4389,
+      "sha256": "43478ebca80b6ffecb107e0786667240f9ed39189188e10ad598cea5879c7b4d",
+      "source_mtime_ns": "1789912375989901202",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "decision",
+        "status": "canonical",
+        "decided_on": "2026-09-20"
+      }
+    },
+    {
+      "source_relative_path": "80-Research/Business-Brain/Business-Brain-Research.md",
+      "package_relative_path": "originals/80-Research/Business-Brain/Business-Brain-Research.md",
+      "bytes": 555,
+      "sha256": "8e03ef17684109af927d866298004d0e72ee29c6a1c6ce77b1c63403232a5871",
+      "source_mtime_ns": "1789320805858020168",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "research",
+        "status": "candidate"
+      }
+    },
+    {
+      "source_relative_path": "80-Research/Research-Index.md",
+      "package_relative_path": "originals/80-Research/Research-Index.md",
+      "bytes": 631,
+      "sha256": "ae09be69ccd7eb23a4e2f3c7920014acd0d86a99945c1eb26267e0cb1bcff0f6",
+      "source_mtime_ns": "1789320805799418003",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "research-index",
+        "status": "canonical"
+      }
+    },
+    {
+      "source_relative_path": "README.md",
+      "package_relative_path": "originals/README.md",
+      "bytes": 2946,
+      "sha256": "a5a7af413d9229856314095c4588be4aa1024777acb3285480ce1d4fcb35ad72",
+      "source_mtime_ns": "1789323319012780138",
+      "archive_classification": "historical_business_document_current_applicability_unverified",
+      "source_declared_metadata": {
+        "type": "router",
+        "status": "canonical"
+      }
+    }
+  ]
+}
